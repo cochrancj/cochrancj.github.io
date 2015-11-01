@@ -1,0 +1,140 @@
+body {
+  background: url("http://i.imgur.com/RvHDbOR.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  max-width: 2000px;
+} 
+
+img.resume {
+    border-radius: 30%;
+    border: 7px solid white; 
+    vertical-align: top;
+    text-align: right;
+}
+
+
+/*Is there a way to make this border circular?
+In a square image, you'd set the border-radius to 50%
+*/
+
+/*THIS IS THE INDEX NAME HEADER*/
+h1 {
+  background: rgba(0,0,0,0.75);
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: white;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 100px;
+  margin: 60px 0 0 0;
+}
+
+/*THIS IS THE INDEX SUBHEAD HEADER*/
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  background: rgba(0,0,0,0.75);
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/*THIS IS THE INDEX LINK BAR HEADER*/
+h3 {
+  background: rgba(0,0,0,0.75);
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*THIS IS THE RESUME SECTION HEADER*/
+h4 {
+  padding: 10px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+/*THIS IS THE RESUME MAIN HEADER*/
+
+h5 {
+  background: rgba(0,0,0,0.75);
+  padding-left: 10px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: white;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 100px;
+  margin: 60px 0 0 0;
+}
+
+/*THIS IS THE RESUME SUBHEAD HEADER*/
+
+h6 {
+  background: rgba(0,0,0,0.75);
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 0 0;
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
+/*THIS IS THE RESUME LINK BAR HEADER - 
+WHY IS THE H NOT PINK*/
+
+h7 {
+  background: rgba(0,0,0,0.75);
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+a.head {
+  padding: 10px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+}
+/*I'm not liking how this element looks, 
+but I don't know what would look better
+maybe a third font? */
+
+a.body {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style:none;
+  line-height: 200%;
+}
+/*What are the best practices for setting line height?
+I wanted extra space between bullets */
+
+p.title {
+  font-style:italic;
+}
+
+p {
+  padding: 10px;
+}
+
+div {
+  background-size: cover;
+  position: left;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.75);
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
