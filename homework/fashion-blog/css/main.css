@@ -1,0 +1,96 @@
+body {
+  background: white;
+  width: 720px;
+  padding: 54px;
+  border-left: 6px solid #dddddd;
+  font-family: Lato;
+  line-height: 1.5; 
+}
+
+/*I DON'T THINK THIS WIDTH IS DOING ANYTHING: I'VE HAD TO GO IN AND MAKE
+THE ARTICLE AND P TAGS 900px WIDE TO MATCH THE SIZE OF THE IMAGE SO THE 
+ALIGNMENT MATCHES. BUT, DOESN'T THAT CANCEL OUT THIS TOP WIDTH?*/
+
+a.top-nav:link {color: #dddddd; padding: 0 5px; font-size: 20px;}
+a.top-nav:visited {color: #dddddd;}
+a.top-nav:hover {color: black;}
+
+/*I GOT THIS FROM THE 'NET - WHAT IS THIS FUNKY LOOK AND DOES IT OPERATE
+THE SAME AS HOW WE'VE BEEN WRITING THESE TYPES OF THINGS?*/
+
+h1 {
+  color: #DD0000;
+  font-weight: 300;
+  font-size: 55px;
+  margin: 0;
+}
+
+h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 7px;
+}
+
+header {
+  margin: 5;
+  padding-bottom: 45px;
+}
+
+article {
+  padding-top: 5px;
+  border-bottom: 1px #cccccc solid;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  width: 900px;
+}
+
+h3 {
+  color: #cccccc;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h4 {
+  color: black;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+p {
+  color: #444444;
+  width: 900px;
+}
+
+#continue {
+  color: red;
+  text-align: right;
+  font-weight: bold;
+}
+
+#continue a {
+  color: red;
+  text-decoration: none;
+}
+
+/*FOR MY OWN REFERENCE, I'M HAVING TROUBLE DECIDING BETWEEN # and . and 
+regular (like #continue, .footer and p) STYLING. I NEED TO REVIEW WHAT EACH
+ACTUALLY MEANS AND WHEN TO USE THEM AGAIN*/
+
+#bottom {
+  color: #cccccc;
+}
+
+a.bottom-nav:link {color: #DD0000; padding: 0 1px; font-size: 20px; text-decoration: none;}
+a.bottom-nav:visited {color: #DD0000;}
+a.bottom-nav:hover {color: black;}
+
+footer {
+  color: #bbbbbb;
+  padding-top: 10px;
+}
+
