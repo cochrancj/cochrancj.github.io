@@ -1,0 +1,139 @@
+body {
+  background: white;
+  width: 90%; /*IS THIS CORRECT FOR RESPONSIVENESS?*/
+  padding: 54px;
+  border-left: 6px solid #dddddd;
+  font-family: Lato;
+  line-height: 1.5; 
+}
+
+a.top-nav:link {color: #dddddd; background: black; text-decoration: none; padding: 10px 20px; margin: 0 1px;font-size: 15px;}
+a.top-nav:visited {color: #dddddd; background: black;}
+a.top-nav:hover {color: #DD0000; background: black;}
+
+h1 {
+  color: #DD0000;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  display: inline;
+}
+
+h2 {
+  color: grey;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 7px;
+  display: inline;
+}
+
+header {
+  margin: 5;
+  padding-bottom: 45px;
+}
+
+img {
+  width: 500px;
+}
+/*WHAT WOULD BE THE CORRECT PERCENTAGE TO USE FOR WIDTH INSTEAD OF PX TO
+RETAIN BEST PRACTICES FOR RESPONSIVENESS?*/
+
+div.sidebar {
+  float: left;
+}
+
+article {
+  padding-top: 5px;
+  border-bottom: 1px #cccccc solid;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  width: 500px;
+}
+
+h3 {
+  color: #cccccc;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+p.firstletter {
+  color: #444444;
+  width: 500px;
+}
+
+p.firstletter::first-letter {
+  font-weight: 300;
+  color: #cccccc;
+  font-size: 60px;
+  display: block;
+}
+
+/*THE REST OF THE P TEXT NEEDS TO WRAP*/
+
+p.continue {
+  color: red;
+  text-align: right;
+  font-weight: bold;
+}
+
+a.continue {
+  color: #DD0000;
+  text-decoration: none;
+}
+
+#bottom {
+  color: #cccccc;
+}
+
+a.bottom-nav:link {color: #DD0000; padding: 0 1px; font-size: 15px; text-decoration: none;}
+a.bottom-nav:visited {color: #DD0000;}
+a.bottom-nav:hover {color: black;}
+
+footer {
+  color: #bbbbbb;
+  padding-top: 10px;
+}
+
+div.sidebar {
+  float: right;
+}
+
+div.top {
+width: 300px;
+}
+
+/*POP DISPLAY UP*/
+
+div.bottom {
+width: 300px;
+}
+
+/*POP DISPLAY UP*/
+
+h5 {
+font-weight: bold;
+color: grey;
+}
+
+p.side {
+  color: grey;
+}
+
+li {
+  color: grey;
+}
+
+a.bullet:link {color: #DD0000; text-decoration: none;}
+a.bullet:visited {color: #DD0000;}
+a.bullet:hover {color: black;}
+
