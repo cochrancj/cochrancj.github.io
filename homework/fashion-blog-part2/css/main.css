@@ -76,6 +76,7 @@ p.firstletter::first-letter {
   color: #cccccc;
   font-size: 60px;
   display: block;
+  float: left;
 }
 
 /*THE REST OF THE P TEXT NEEDS TO WRAP*/

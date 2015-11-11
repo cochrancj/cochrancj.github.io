@@ -1,0 +1,40 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: red;
+  height: 100px;
+}
+
+.large {
+  overflow: hidden;
+}
+
+section {
+  background-color: yellow;
+  height: 250px;
+  width: 600px;
+  float: left;
+}
+
+.small {
+  overflow: hidden;
+}
+
+article {
+  background-color: green;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+footer {
+  background-color: blue;
+  height: 100px;
+}
+
+.clear {
+  clear: both;
+}
