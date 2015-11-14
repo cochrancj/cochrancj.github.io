@@ -1,0 +1,80 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: red;
+  height: 100px;
+}
+
+.logo {
+  height: 80px;
+  width: 200px;
+  background-color: yellow;
+  float: left;
+}
+
+nav {
+  background-color: yellow;
+  float: right;
+  width: 500px;
+  margin-top: 20px;
+}
+
+nav a {
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  background-color: pink;
+}
+
+.clear {
+  clear: both;
+}
+
+main {
+  margin-top: 20px;
+  height: 250px;
+  background-color: blue;
+}
+
+/*.article {
+   margin-top: 20px;
+  background-color: green;
+  width: 400px;
+  height: 100px;
+  float: left;
+}*/
+
+.article1 {
+  background-color: green;
+  margin-top: 20px;
+  width: 340px;
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.article2 {
+  background-color: green;
+  margin-top: 20px;
+  width: 340px;
+  height: 100px;
+  float: left;
+}
+
+.article3 {
+  background-color: green;
+  margin-top: 20px;
+  width: 340px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: orange;
+  height: 100px;
+  margin-top: 20px;
+}

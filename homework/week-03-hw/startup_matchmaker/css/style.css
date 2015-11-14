@@ -1,0 +1,197 @@
+body {
+  font-family: "Source Sans Pro";
+}
+
+.container {
+  width: 1200px;
+}
+
+header {
+  background-color: black;
+  border-bottom: 4px solid yellow;
+  height: 70px;
+}
+
+h1 {
+  color: yellow;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  float: left;
+  padding-left: 30px;
+}
+
+.tagline {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  background-color: #C6C6C6;
+  text-align: center;
+  font-style: italic;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.taste {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.are {
+  background-color: #C6C6C6;
+  border-bottom: 3px solid yellow;
+}
+
+.clear {
+  clear: both;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+  padding: 0 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.mainImage {
+  background-image:url("images/coworking.jpg");
+  float: left;
+  height: 300px;
+  width: 1200px;
+}
+/*WHY IS THIS BACKGROUND IMAGE 
+NOT LOADING?!?!?!?!?! I'VE TRIED 6
+WAYS FROM SUNDAY AND ZIP!!*/
+
+.mainBox {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255,0,0,0.3);
+  float: right;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+/*white: 255, 255, 255, 0.3
+CHANGE COLOR TO WHITE WHEN I GET
+THE DAMN BACKGROUND IMAGE TO LOAD*/
+
+.button {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: yellow;
+  padding: 10px;
+  height: 20px;
+  width: 280px;
+  border-bottom: 2px solid grey;
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+}
+
+.match {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.callout {
+  background: #C6C6C6;
+}
+
+.article {
+  background-color: #E5E5E5;
+  width: 1200px;
+  height: 200px;
+  font-family: "Source Sans Pro";
+  padding-top: 20px;
+}
+
+/*I AM HAVING TROUBLE LINING THESE
+ARTICLES UP - THE HEADER IS LIGNED
+PROPERLY (BETTER HITS ABOUT WHERE 
+DEVELOPERS HITS IN THE LINE ABOVE, 
+BUT THEN IT BREAKS DOWN. ACCORDING
+TO THE SPEC, MEET SHOULD ALMOST LINE 
+UP WITH DEVELOPERS IN THE WHITE BOX
+AND THE THREE ARTICLES SHOULD BE 
+MUCH MORE SQUISHED TOGETHER. BUT, 
+WHEN I GET THE SPACING CORRECT 
+ACCORDING TO THE SPEC, THERE'S A HUGE
+GAP BETWEEN ELEMENTS. AND, IF I SQUISH
+THE WIDTH OF THE PAGE, THE HEADER DOESN'T
+LINE UP ANY MORE. WAS THIS IMAGE CHOPPED
+SOMEHOW, OR IS THE ASPECT RATIO CORRECT?
+*/
+
+.article1 {
+  width: 360px;
+  height: 150px;
+  float: left;
+  border-right: 1px solid #C6C6C6;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.article2 {
+  width: 360px;
+  height: 150px;
+  float: left;
+  border-right: 1px solid #C6C6C6;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.article3 {
+  width: 350px;
+  height: 150px;
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.articleHead {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+.SignUpButton {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: #C6C6C6;
+  padding: 10px;
+  height: 20px;
+  width: 225px;
+  border-bottom: 2px solid grey;
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+footer {
+  height: 50px;
+  width: 1180px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro";
+  padding-top: 20px;
+  padding-left: 20px;
+}
