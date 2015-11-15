@@ -1,0 +1,162 @@
+.container {
+  width: 1200px;
+  background-color: #C6C6C6;
+}
+
+body {
+  color: #333333;
+  width: 900px;
+}
+
+header {
+  background-color: black;
+  height: 60px;
+}
+
+nav {
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: #CCCCCC;
+}
+
+a:hover {
+  color: #96DDFC;
+}
+
+.subhead {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  width: 900px;
+}
+
+.logo {
+  float: left;
+  background-image:url("../images/logo.png");
+  width: 280px;
+  height: 56px;
+}
+
+.socialnav {
+  float: right;
+  width: 195px;
+  height: 49px;
+  background-image:url("../images/socialNav.png");
+  background-position: bottom;
+}
+
+.clear {
+  clear: both;
+}
+
+.mainImage {
+  background-image:url("../images/photobanner.png");
+  height: 370px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0px 15px 50px black;
+}
+/*THIS BOX SHADOW NEEDS A DIFFERENT SHAPE
+*/
+
+.action {
+  height: 50px;
+  width: 900px;
+  border: 1px solid #E2E2E2;
+  margin-left: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+/*  float: left;*/
+}
+/*MAKE EMBOSSED LOOK*/
+
+p.action {
+  float: left;
+  height: 50px;
+  width: 700px;
+}
+/*I WANT THE TEXT LEFT AND NOT
+AS MUCH WIDTH AS THE BOX - THIS
+DOES NOT SEEM TO BE WORKING*/
+
+.actionimage {
+  background-image:url("../images/button-blurb.png");
+  height: 50px;
+  width: 150px;
+  float: right;
+}
+/*MOVE BUTTON AND LIGN UP BETTER*/
+
+h1 {
+  font-size: 20px;
+}
+
+.HomeBox {
+  height: 500px;
+  width: 900px;
+}
+
+.HomeBox1:hover {
+  color: #F9F9F9;
+}
+
+/*.HomeBoxImage1 {
+    background-image:url("../images/photo-column1.jpg");
+  width: 290px;
+  height: 100px;
+  margin: 40px;
+  border: 6px solid #E2E2E2;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+.HomeBox1 {
+  background-image:url("../images/photo-column1.jpg");
+  width: 290px;
+  height: 100px;
+  margin: 40px;
+  border: 6px solid #E2E2E2;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HomeBox2 {
+  background-image:url("../images/photo-column2.jpg");
+  width: 290px;
+  height: 100px;
+  margin: 40px;
+  border: 6px solid #E2E2E2;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HomeBox3 {
+  background-image:url("../images/photo-column3.jpg");
+  width: 290px;
+  height: 100px;
+  margin: 40px;
+  border: 6px solid #E2E2E2;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*THE SPECS CAN'T BE ACCURATE. 
+ALL THIS TOGETHER IS WAY MORE THAN
+900PX WIDE*/
+
+footer {
+  height: 300px;
+  width: 900px;
+  background-color: black;
+}
+
+/*PUT 3 COLUMS INTO THE FOOTER*/
