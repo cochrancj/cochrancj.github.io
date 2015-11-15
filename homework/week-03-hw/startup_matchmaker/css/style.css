@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1050px;
 }
 
 header {
@@ -67,29 +67,27 @@ nav a {
 }
 
 .mainImage {
-  background-image:url("images/coworking.jpg");
+  background-image:url("../images/coworking.jpg");
   float: left;
-  height: 300px;
-  width: 1200px;
+  height: 400px;
+  width: 1050px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-/*WHY IS THIS BACKGROUND IMAGE 
-NOT LOADING?!?!?!?!?! I'VE TRIED 6
-WAYS FROM SUNDAY AND ZIP!!*/
 
 .mainBox {
   width: 300px;
   height: 200px;
-  background-color: rgba(255,0,0,0.3);
+  background-color: rgba(255,255,255,0.75);
   float: right;
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 25px;
   margin-right: 25px;
+  box-shadow: 1px 1px 5px black;
 }
-/*white: 255, 255, 255, 0.3
-CHANGE COLOR TO WHITE WHEN I GET
-THE DAMN BACKGROUND IMAGE TO LOAD*/
 
 .button {
   font-family: "Oswald", sans-serif;
@@ -116,31 +114,23 @@ THE DAMN BACKGROUND IMAGE TO LOAD*/
 
 .article {
   background-color: #E5E5E5;
-  width: 1200px;
-  height: 200px;
+  width: 1050px;
+  height: 190px;
   font-family: "Source Sans Pro";
   padding-top: 20px;
 }
 
-/*I AM HAVING TROUBLE LINING THESE
-ARTICLES UP - THE HEADER IS LIGNED
-PROPERLY (BETTER HITS ABOUT WHERE 
-DEVELOPERS HITS IN THE LINE ABOVE, 
-BUT THEN IT BREAKS DOWN. ACCORDING
-TO THE SPEC, MEET SHOULD ALMOST LINE 
-UP WITH DEVELOPERS IN THE WHITE BOX
-AND THE THREE ARTICLES SHOULD BE 
-MUCH MORE SQUISHED TOGETHER. BUT, 
-WHEN I GET THE SPACING CORRECT 
-ACCORDING TO THE SPEC, THERE'S A HUGE
-GAP BETWEEN ELEMENTS. AND, IF I SQUISH
-THE WIDTH OF THE PAGE, THE HEADER DOESN'T
-LINE UP ANY MORE. WAS THIS IMAGE CHOPPED
-SOMEHOW, OR IS THE ASPECT RATIO CORRECT?
-*/
+/*IN THE SPEC, THE RIGHT BUTTON DOES
+NOT LINE UP WITH THE LEFT TWO, AND THE
+TEXT IN THE FIRST BOX HAS 'YOURSELF'
+ON THE SECOND LINE. I CAN FAKE THIS
+WITH A HARD BREAK, BUT THE MIS-MATCHED
+BUTTONS KILLS ME. THIS IS SOMETHING
+I WOULD ARGUE WITH THE DESIGNER 
+OVER.*/
 
 .article1 {
-  width: 360px;
+  width: 300px;
   height: 150px;
   float: left;
   border-right: 1px solid #C6C6C6;
@@ -150,7 +140,7 @@ SOMEHOW, OR IS THE ASPECT RATIO CORRECT?
 }
 
 .article2 {
-  width: 360px;
+  width: 300px;
   height: 150px;
   float: left;
   border-right: 1px solid #C6C6C6;
@@ -160,11 +150,11 @@ SOMEHOW, OR IS THE ASPECT RATIO CORRECT?
 }
 
 .article3 {
-  width: 350px;
+  width: 300px;
   height: 150px;
   float: right;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .articleHead {
@@ -183,12 +173,12 @@ SOMEHOW, OR IS THE ASPECT RATIO CORRECT?
   border-radius: 5px;
   float: right;
   margin-top: 20px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 footer {
   height: 50px;
-  width: 1180px;
+  width: 1030px;
   background-color: black;
   color: rgb(255, 255, 255);
   font-family: "Source Sans Pro";
