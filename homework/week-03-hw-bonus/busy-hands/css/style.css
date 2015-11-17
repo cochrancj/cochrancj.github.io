@@ -173,7 +173,7 @@ ALL THIS TOGETHER IS WAY MORE THAN
 900PX WIDE*/
 
 footer {
-  height: 300px;
+  height: 400px;
   width: 1200px;
   background-color: black;
 }
@@ -197,13 +197,13 @@ footer a {
 }
 
 .footcenter {
-  width: 400px;
+  width: 395px;
   margin: 30px;
   float: left;
 }
 
 .footright {
-  width: 210px;
+  width: 238px;
   margin: 30px;
   float: left;
 }
@@ -223,17 +223,20 @@ h2 {
   color: #515151;
   font-size: 13px;
   float: left;
+  padding-left: 32px;
 }
 
 .createdby {
   color: #515151;
   font-size: 13px;
   float: right;
+  padding-right: 200px;
 }
 
 .createdby a {
   color: #1FA2E1;
   text-decoration: none;
+  font-weight: bold;
 }
 
 
