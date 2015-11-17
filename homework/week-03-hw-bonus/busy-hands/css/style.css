@@ -24,7 +24,7 @@ nav a {
   color: #CCCCCC;
 }
 
-a:hover {
+nav a:hover {
   color: #96DDFC;
 }
 
@@ -62,25 +62,30 @@ a:hover {
   margin-top: 20px;
   box-shadow: 0px 15px 50px black;
 }
+
 /*THIS BOX SHADOW NEEDS A DIFFERENT SHAPE
 */
 
 .action {
   height: 50px;
-  width: 900px;
+  width: 1200px;
   border: 1px solid #E2E2E2;
   margin-left: 150px;
   margin-top: 40px;
   margin-bottom: 40px;
-/*  float: left;*/
+  float: left;
 }
-/*MAKE EMBOSSED LOOK*/
+/*THIS LOOKS CRAZY.
+NEEDS TO LOOK EMBOSSED, NOT 
+BE DOUBLE, AND NEEDS TO ACTUALLY
+FLOAT LEFT*/
 
 p.action {
   float: left;
   height: 50px;
   width: 700px;
 }
+
 /*I WANT THE TEXT LEFT AND NOT
 AS MUCH WIDTH AS THE BOX - THIS
 DOES NOT SEEM TO BE WORKING*/
@@ -91,7 +96,7 @@ DOES NOT SEEM TO BE WORKING*/
   width: 150px;
   float: right;
 }
-/*MOVE BUTTON AND LIGN UP BETTER*/
+/*MOVE BUTTON AND LINE UP BETTER*/
 
 h1 {
   font-size: 20px;
@@ -99,12 +104,25 @@ h1 {
 
 .HomeBox {
   height: 500px;
-  width: 900px;
+  width: 1200px;
+}
+
+.HomeBox a {
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+.HomeBox a:hover {
+  text-decoration: underline;
 }
 
 .HomeBox1:hover {
   color: #F9F9F9;
 }
+
+/*THIS IS NOT WORKING. BORDERS
+ON THE HOME ARTICLE BOXES ARE 
+SUPPOSED TO CHANGE COLOR ON HOVER*/
 
 /*.HomeBoxImage1 {
     background-image:url("../images/photo-column1.jpg");
@@ -116,6 +134,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
 }*/
+
 .HomeBox1 {
   background-image:url("../images/photo-column1.jpg");
   width: 290px;
@@ -155,8 +174,67 @@ ALL THIS TOGETHER IS WAY MORE THAN
 
 footer {
   height: 300px;
-  width: 900px;
+  width: 1200px;
   background-color: black;
 }
 
-/*PUT 3 COLUMS INTO THE FOOTER*/
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footleft {
+  width: 210px;
+  margin: 30px;
+  float: left;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.footcenter {
+  width: 400px;
+  margin: 30px;
+  float: left;
+}
+
+.footright {
+  width: 210px;
+  margin: 30px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+h2 {
+  color: #CCCCCC;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.copyright {
+  color: #515151;
+  font-size: 13px;
+  float: left;
+}
+
+.createdby {
+  color: #515151;
+  font-size: 13px;
+  float: right;
+}
+
+.createdby a {
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+
+
