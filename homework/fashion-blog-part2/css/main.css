@@ -1,6 +1,6 @@
 body {
   background: white;
-  width: 90%; /*IS THIS CORRECT FOR RESPONSIVENESS?*/
+  width: 90%; /*IS THIS CORRECT FOR RESPONSIVENESS?*/ /* Sort of. It will make the body 90% of the browser window*/
   padding: 54px;
   border-left: 6px solid #dddddd;
   font-family: Lato;
@@ -38,6 +38,8 @@ img {
 }
 /*WHAT WOULD BE THE CORRECT PERCENTAGE TO USE FOR WIDTH INSTEAD OF PX TO
 RETAIN BEST PRACTICES FOR RESPONSIVENESS?*/
+/* It depends on what you want the image to do. There is more to responsivness
+besides using percentages */
 
 div.sidebar {
   float: left;

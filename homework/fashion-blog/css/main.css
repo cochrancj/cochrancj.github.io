@@ -11,12 +11,20 @@ body {
 THE ARTICLE AND P TAGS 900px WIDE TO MATCH THE SIZE OF THE IMAGE SO THE 
 ALIGNMENT MATCHES. BUT, DOESN'T THAT CANCEL OUT THIS TOP WIDTH?*/
 
+/* yes the image wants to use it's full size, but if you give it a width of 
+100% it will not get bigger than it's container. */
+
 a.top-nav:link {color: #dddddd; padding: 0 5px; font-size: 20px;}
 a.top-nav:visited {color: #dddddd;}
 a.top-nav:hover {color: black;}
 
 /*I GOT THIS FROM THE 'NET - WHAT IS THIS FUNKY LOOK AND DOES IT OPERATE
 THE SAME AS HOW WE'VE BEEN WRITING THESE TYPES OF THINGS?*/
+
+/* It probably looks like this because it has been compressed so that the css
+file is a smaller size and the page would load faster. I wouldn't recomend
+using this style for development because it is harder to read. But yes, it
+does work the same way */
 
 h1 {
   color: #DD0000;
@@ -80,6 +88,8 @@ p {
 /*FOR MY OWN REFERENCE, I'M HAVING TROUBLE DECIDING BETWEEN # and . and 
 regular (like #continue, .footer and p) STYLING. I NEED TO REVIEW WHAT EACH
 ACTUALLY MEANS AND WHEN TO USE THEM AGAIN*/
+/* I persoanlly like to avoid ids(#) unless I really need them, so my advise is
+to use classes(.) */
 
 #bottom {
   color: #cccccc;
@@ -93,4 +103,4 @@ footer {
   color: #bbbbbb;
   padding-top: 10px;
 }
-
+/* great work!*/
