@@ -21,3 +21,11 @@
 	background-color: #cccccc;
 	cursor: pointer;
 }
+
+#red.on {
+	background-color: red;
+}
+
+#blue.on {
+	background-color: blue;
+}
