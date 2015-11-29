@@ -39,7 +39,7 @@
 
 .quote {
   color: #284A7E;
-  font-size: 20px;
+  font-size: 16px;
   font-family: serif;
 }
 
@@ -65,7 +65,7 @@
 
 .profile-header {
   background-color: #CCCCCC;
-  height: 300px;
+  height: 200px;
   width: 930px;
 }
 
@@ -212,6 +212,30 @@ td {
   border-left: 0px;
 }
 
+.matchBox {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  float: left;
+}
 
+.toggle {
+  display: none;
+}
 
+.pink {
+  color: #EA4A7A;
+}
+
+.blue {
+  color: #4175AC;
+}
+
+.loggedIn {
+  text-align: right;
+  color: #4175AC;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 
