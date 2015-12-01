@@ -34,9 +34,9 @@ $("submit").click(function(){
 // working fine. This: http://jsfiddle.net/CkTRa/395/
 // is where I got the example code from to build off of
 
-$(document) .ready(function() {
-  $("message") .click(function() {
-    $("loggedIn") .hide("slow", function() {
+$(document).ready(function() {
+  $("message").click(function() {
+    $("loggedIn").hide("slow", function() {
       alert("I'd love for this to be a pretty box where you could Send Him A Message");
     });
   });
@@ -45,3 +45,12 @@ $(document) .ready(function() {
 // W.T.EVERLOVING F? Why is *this* one
 // not working? Console says it's 
 // fine. Example I pulled from: http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_callback
+
+$("join").click(function(){
+      alert("One Of Us! One Of Us!");
+});
+// LIFE IS BAD AND EVERYTHING IS BROKEN
+
+
+
+
