@@ -214,6 +214,7 @@ td {
 
 .matchBox {
   background-color: white;
+  display: none;
   height: 100px;
   width: 100px;
   position: relative;
