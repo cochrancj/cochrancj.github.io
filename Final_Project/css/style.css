@@ -41,10 +41,8 @@ p {
 }
 
 .rotate {
-  margin: 5px;
-  /*display: inline;*/
-  /*DISPLAYING THESE IMAGES INLINE BREAKS MY ROTATE
-  WHY?*/
+  margin: 20px;
+  float: left;
 }
 
 .rotate:hover {
@@ -101,27 +99,32 @@ p {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 100px;
+  font-weight: 100;
   color: yellow;
 }
 
 h4 {
-  font-size: 40px;
+  font-size: 100px;
+  font-weight: 100;
   color: green;
 }
 
 h5 {
-  font-size: 40px;
+  font-size: 100px;
+  font-weight: 100;
   color: blue;
 }
 
 h6 {
-  font-size: 40px;
+  font-size: 100px;
+  font-weight: 100;
   color: black;
 }
 
 h7 {
-  font-size: 40px;
+  font-size: 100px;
+  font-weight: 100;
   color: green;
 }
 
