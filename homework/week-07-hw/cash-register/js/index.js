@@ -4,17 +4,18 @@
 // 3: #total is updated to reflect the sum of all the #entries
 //
 // Instructions:
-// 1: Add a .submit event to the form; use an anonymous function to handle the sumbit
-// 2: Remeber to prevent the default action on the form!
-// 3: Create a variable to store the user input from #newEntry
-// 4: Remember to call parseFloat() on this variable! It needs to be a number.
-// 5: Append a new <tr></tr> to the <tbody id="entries"> 
+// ~~1: Add a .submit event to the form; use an anonymous function to handle the sumbit
+// ~~2: Remeber to prevent the default action on the form!
+// ~~3: Create a variable to store the user input from #newEntry
+// ~~4: Remember to call parseFloat() on this variable! It needs to be a number.
+// ~~5: Append a new <tr></tr> to the <tbody id="entries"> 
 // containing two <td>'s, one of which contains the new variable: 
 // <tr><td></td><td>NEW VALUE</td></tr>
+
+
 // 6: Figure out a way to update the number in #total (Hint: look back at the calculator box example)
 // 7: Empty the input in #newEntry (clear it out)
 
-// parseFloats, concatinations, prevent default action
 
 $(document).ready(function () {
 
@@ -25,10 +26,20 @@ $('#entry').submit(function (event) {
   
   var total = parseFloat(total)
 
+  // total = total + (#newEntry)
+
+  // var total = 0;
+
 $('#entries').append('<tr>'+'<td>'+'</td>'+'<td>'+total+'</td>'+'</tr>')
 
-  // $('#total').
+$("#total").html(total)
 
+
+
+//   $("#a10").click(function(){
+//     total = total + 10;
+//     $("#out").html(total);
+//   });
 
 
 })

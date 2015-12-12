@@ -26,6 +26,23 @@ MOST LIKELY THIS IS NOT DOABLE. ASK WHEN
 CODE IS FLESHED OUT MORE. I SUPPOSE I COULD
 LIVE WITH MAKING THIS BOX A TOUCH GREY. MAYBE.*/
 
+#slider {
+  margin: 0px auto;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.blurb {
+  height: auto;
+  max-width: 100%;
+} 
+
+
+#slider > .blurb {
+  position: absolute;
+}
+
 h1 {
   font-size: 2em;
   line-height: 1;
@@ -41,8 +58,15 @@ p {
 }
 
 .rotate {
-  margin: 20px;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
+}
+
+.rotate img {
+  height: 100px;
+  width: 100px;
 }
 
 .rotate:hover {
@@ -59,7 +83,7 @@ p {
   height: 20px;
   border: 1px solid gray;
   float: right;
-  margin-right: 2px;
+  margin-right: 10px;
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -88,14 +112,24 @@ p {
 
 }
 
+#recipe {
+  width: 100%;
+}
+
 .ingredient-image {
   float: left;
   width: 30%;
+  margin-left: 20px;
+}
+
+.ingredient-image img {
+  height: 150px;
+  width: 300px;
 }
 
 .ingredient-expanded {
   float: right;
-  width: 70%;
+  width: 50%;
 }
 
 h3 {
