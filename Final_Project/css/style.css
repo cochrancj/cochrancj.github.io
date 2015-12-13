@@ -127,7 +127,27 @@ p {
   width: 300px;
 }
 
-.ingredient-expanded {
+.protein-expanded {
+  float: right;
+  width: 50%;
+}
+
+.bulk-veg-expanded {
+  float: right;
+  width: 50%;
+}
+
+.accent-veg-expanded {
+  float: right;
+  width: 50%;
+}
+
+.cook-style-expanded {
+  float: right;
+  width: 50%;
+}
+
+.flavor-profile-expanded {
   float: right;
   width: 50%;
 }

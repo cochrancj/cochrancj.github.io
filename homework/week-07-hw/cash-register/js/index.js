@@ -19,31 +19,22 @@
 
 $(document).ready(function () {
 
+  var total = 0;
+
 $('#entry').submit(function (event) {
   event.preventDefault()
 
-  var total = $('#newEntry').val()
+  var newTotal = $('#newEntry').val()
   
-  var total = parseFloat(total)
+  var newTotal = parseFloat(newTotal)
 
-  // total = total + (#newEntry)
+  total = total + newTotal
 
-  // var total = 0;
-
-$('#entries').append('<tr>'+'<td>'+'</td>'+'<td>'+total+'</td>'+'</tr>')
+$('#entries').append('<tr>'+'<td>'+'</td>'+'<td>'+newTotal+'</td>'+'</tr>')
 
 $("#total").html(total)
 
-
-
-//   $("#a10").click(function(){
-//     total = total + 10;
-//     $("#out").html(total);
-//   });
-
+$('#newEntry').val('')
 
 })
-
-
-
 })
