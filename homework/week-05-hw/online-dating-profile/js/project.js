@@ -1,4 +1,4 @@
-$(document) .ready(function () {
+$(document).ready(function () {
 //   $("submit").click(function () {
 //     $("matchBox") .animate ({
 //       height: 'toggle'
@@ -39,7 +39,8 @@ $(".submit").click(function(){
       alert("I'd love for this to be a pretty box where you could Send Him A Message");
     });
   });
-});
+// The extra closing "})" below is what was breaking your js file. I've commented it out and now your application seems to be working. Browser console is very helpful in tracking down these syntax errors!
+// });
 
 // W.T.EVERLOVING F? Why is *this* one
 // not working? Console says it's 

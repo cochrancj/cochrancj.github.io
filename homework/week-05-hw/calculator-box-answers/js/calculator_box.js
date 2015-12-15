@@ -1,7 +1,10 @@
+// Fantastic job.  Your calculator functions well and your code is clean!
+
 $(document).ready(function(){
 	var total = 0;
 
 	$("#a10").click(function(){
+		// works great!! you could also use "total += 10"
 		total = total + 10;
 		$("#out").html(total);
 	});

@@ -8,7 +8,7 @@ body {
 } 
 
 img.resume {
-    border-radius: 30%;
+    border-radius: 50%;/* a bit too much indentation here */
     border: 7px solid white; 
     vertical-align: top;
     text-align: right;
@@ -18,10 +18,13 @@ img.resume {
 /*Is there a way to make this border circular?
 In a square image, you'd set the border-radius to 50%
 */
+/*you're right, the image needs to be square. you could give it height 
+of 200px, which will make the iamge stretch a little, or you can crop it
+in Photoshop or something similar so that it is square*/
 
 /*THIS IS THE INDEX NAME HEADER*/
 h1 {
-  background: rgba(0,0,0,0.75);
+  background: rgba(0,0,0,0.75); /* nice use of opacity! */
   padding: 10px;
   text-align: center;
   letter-spacing: 10px;
@@ -88,7 +91,7 @@ h6 {
 /*THIS IS THE RESUME LINK BAR HEADER - 
 WHY IS THE H NOT PINK*/
 
-h7 {
+h7 { /* h7 is not a valild heading */
   background: rgba(0,0,0,0.75);
   padding: 10px;
   color: white;
@@ -109,6 +112,8 @@ a.head {
 /*I'm not liking how this element looks, 
 but I don't know what would look better
 maybe a third font? */
+/* fonts are only ussed one at a time. Additional fonts will only be used
+if the one before it is not available in the current browser */
 
 a.body {
   color: white;
@@ -121,6 +126,7 @@ li {
 }
 /*What are the best practices for setting line height?
 I wanted extra space between bullets */
+/* None that I can think of. This seems to be working fine. */
 
 p.title {
   font-style:italic;

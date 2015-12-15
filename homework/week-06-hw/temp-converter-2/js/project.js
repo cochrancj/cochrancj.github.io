@@ -11,8 +11,11 @@ $(document).ready(function () {
     
     $('#solutionC').text(tempC)
 
+    // would be cleaner to do these conditionals using only "<" with an else statement at the end
+
     if (tempC <= 32) {
     $('body').css('background-color', '#E0FFFF')
+    // if you are trying to represent (tempC > 33) && (tempC < 50) the below syntax isn't correct.  but cleaner to do this with just <
     } else if (tempC > 33 && 50) {
         $('body').css('background-color', '#4169E1')
     } else if (tempC > 51 && 80) {
