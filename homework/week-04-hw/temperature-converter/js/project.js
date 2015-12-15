@@ -1,3 +1,5 @@
+// Great job with this!!!!
+
 document.getElementById('click-me1').onclick = convertFToC;
 
 function convertFToC () {
@@ -19,6 +21,7 @@ function convertFToC () {
         else if (tempC > 81 && 'tempC' < 100) {
         document.body.style.backgroundColor = "#FF4500";
     }
+        // you could possibly have this as an else with no condition since is handling all remaining values
         else if (tempC >= 101) {
         document.body.style.backgroundColor = "#600000";
     }
@@ -61,4 +64,6 @@ function convertTToF () {
 // IF I ENTER ANOTHER NUMBER INTO THE BOX - LIKE 101 - THE BACKGROUND
 // SHOULD TURN TO BRICK RED, BUT IT STAYS LIGHT BLUE. HOW TO I SWITCH THE 
 // LIGHT BLUE OFF TO ALLOW THE BRICK RED TO TAKE EFFECT? 
+
+// This seems to actually be working fine for me in the scenario you describe above. 
 

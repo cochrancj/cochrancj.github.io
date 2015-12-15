@@ -1,3 +1,6 @@
+/*Super great job making a page that looks like the okCupid image you decided to go off of.  My one suggesting woudl be to maybe not limit the entire page contents to ".container".  could give body the blue background, and then center container if you want to give that a fixed size.*/
+
+
 .container {
   width: 1200px;
   height: 1200px;
@@ -27,6 +30,7 @@
   color: #153361;
 }*/
 
+/*i wouldn't be afraid to add some padding here and in other elements on the page to un-crowd text*/
 .accolates {
   background-color: #153361;
   width: 230px;
