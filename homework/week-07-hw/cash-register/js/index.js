@@ -21,20 +21,26 @@ $(document).ready(function () {
 
   var total = 0;
 
-$('#entry').submit(function (event) {
-  event.preventDefault()
+  $('#entry').submit(function (event) {
+    event.preventDefault()
 
-  var newTotal = $('#newEntry').val()
-  
-  var newTotal = parseFloat(newTotal)
+    var newTotal = $('#newEntry').val()
 
-  total = total + newTotal
+    // THIS WOULD BE BETTER SERVED RE-NAMED TO SOMETHING OTHER THAN NEWTOTAL _ IT IS NOT REALLY A NEW TOTAL
+    
+    newTotal = parseFloat(newTotal)
 
-$('#entries').append('<tr>'+'<td>'+'</td>'+'<td>'+newTotal+'</td>'+'</tr>')
+    total = total + newTotal
 
-$("#total").html(total)
+    newTotal = "$" + newTotal.toFixed(2)
 
-$('#newEntry').val('')
+  $('#entries').append('<tr><td></td><td>' + newTotal + '</td></tr>')
 
-})
+  // total = "$" +total.toFixed(2)
+
+  $("#total").html(total)
+
+  $('#newEntry').val('')
+
+  })
 })

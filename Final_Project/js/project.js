@@ -11,19 +11,19 @@
 // or make the whole thing rotate? 
 
 
-// $(document).ready(function () {
-//   $("#slider > div:gt(0)").hide();
-//   $("#slider").height($("#slider > div > blurb").height());
-//   setInterval(function () {
-//     $('#slider > div: first')
-//     .fadeOut(1000)
-//     .next()
-//     .fadeIn(1000)
-//     .end()
-//     .appendTo('#slider');
-//   }, 3000);
-//   })
-// })
+$(document).ready(function () {
+  $("#slider > div:gt(0)").hide();
+  $("#slider").height($("#slider > div > blurb").height());
+  setInterval(function () {
+    $('#slider > div: first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slider');
+  }, 3000);
+  })
+})
 
 // THIS IS AN EXAMPLE OF A ROTATING BANNER: 
 
@@ -36,12 +36,12 @@
 
 // vvvv ARRAY (BROKEN) vvvv  ---- WHY??
 
-// $(document).ready(function () {
-//   $('rotate').submit(function () {
-//     var recipe = ["ingredient-image", "ingredient-expanded"];
-//     $("#recipe").innerHtml = demo;
-//   })
-// })
+$(document).ready(function () {
+  $('rotate').click(function () {
+    var recipe = ["ingredient-image", "protein-expanded", "bulk-veg-expanded", "accent-veg-expanded", "cook-style-expanded", "flavor-profile-expanded"];
+    $("#recipe").innerHtml = recipe;
+  })
+})
 
 
 
