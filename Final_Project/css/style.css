@@ -1,3 +1,14 @@
+/*FIX ALL SIZES TO PERCENTAGES
+ADD SOME SORT OF MEDIA QUERY
+
+@MEDIA (MIN-WIDTH: 1024PX) {
+  XXXXXX OR 480 OR 320
+}
+
+do something like the collapsing nav
+bar - collapse and toggle
+*/
+
 body {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 20px;
@@ -152,35 +163,31 @@ p {
   width: 50%;
 }
 
-h3 {
-  font-size: 100px;
+.yellow {
+  font-size: 5em;
   font-weight: 100;
   color: yellow;
 }
 
-h4 {
-  font-size: 100px;
+.green {
+  font-size: 5em;
   font-weight: 100;
   color: green;
 }
 
-h5 {
-  font-size: 100px;
+.blue {
+  font-size: 5em;
   font-weight: 100;
   color: blue;
 }
 
-h6 {
-  font-size: 100px;
+.span {
+  font-size: 5em;
   font-weight: 100;
   color: black;
 }
 
-h7 {
-  font-size: 100px;
-  font-weight: 100;
-  color: green;
-}
+
 
 
 
