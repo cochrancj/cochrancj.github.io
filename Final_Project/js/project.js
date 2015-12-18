@@ -12,16 +12,18 @@
 
 
 $(document).ready(function () {
+
   $("#slider > div:gt(0)").hide();
+  
   $("#slider").height($("#slider > div > blurb").height());
-  setInterval(function () {
+  // setInterval(function () {
     $("#slider > div: first")
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo("#slider");
-  // }, (3000);
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo("#slider");
+  // }, 3000);
   })
 })
 

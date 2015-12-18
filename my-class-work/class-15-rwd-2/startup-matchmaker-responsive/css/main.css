@@ -11,25 +11,28 @@ body {
 }
 
 #large-nav {
-  display: inline;
-  float: right;
+  float: left;
 }
 
 #large-nav a {
   display: inline-block;
+  float: right;
 }
 
 #small-nav {
   display: none;
 }
 
-#small-nav a {
+/*#small-nav a {
   display: block;
-  float: right;
-}
+  color: blue;
+  background-color: #C6C6C6;
+  border-bottom: #AAA;
+}*/
 
 #icon {
   display: none;
+  float: right;
 }
 
 .clear {
@@ -39,6 +42,7 @@ body {
 h1 {
   font-size: 2em;
   line-height: 1;
+  float: left;
 }
 
 h2 {
@@ -184,16 +188,18 @@ footer {
   padding: 2% 3%;
 }
 
-@media (max-width: 900px) {
-  header nav a {
-    display: none;
+@media (max-width: 990px) {
+  header a {
+    display: block;
+    color: blue;
+    background-color: #C6C6C6;
+    border-bottom: #AAA;
   }
 
   #icon {
     display: block;
   }
 }
-
 
 
 

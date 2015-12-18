@@ -6,7 +6,7 @@ $(document).ready(function () {
 
   $(window).resize(function () {
 
-    if($(window).width() > 900) {
+    if($(window).width() > 990) {
       $("#small-nav").hide()
     }
   })
