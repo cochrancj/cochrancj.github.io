@@ -25,6 +25,17 @@ $(document).ready(function () {
       .appendTo("#slider");
   // }, 3000);
   })
+
+things = $('.rotate');
+$(things[Math.floor(Math.random()*things.length)]).click()
+
+// this should return a random element 
+// by clicking on something in the div 
+// of class (example has 10 links in 
+//   that div and wanted to spit a 
+//   random link per click).
+
+// rename my dice as elements in a div.
 })
 
 // THIS IS AN EXAMPLE OF A ROTATING BANNER: 
