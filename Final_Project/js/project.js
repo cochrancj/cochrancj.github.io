@@ -2,9 +2,14 @@
 
 $(document).ready(function () {
 
-  $('proteinDie').click(function () {
-    $('#recipe').append = Math.floor(Math.random()*6)+1
-  })
+  // function activateFilterAnimation(){
+  //   $('.dice img').toggleClass('animated');
+  // }
+  //   $('dice').on('click', activateFilterAnimation);
+
+//   $('proteinDie').click(function () {
+//     $('#recipe').text = Math.floor(Math.random()*6)+1
+//   })
 
   // $("#slider > div:gt(0)").hide();
   

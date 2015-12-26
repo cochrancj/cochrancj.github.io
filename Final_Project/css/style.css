@@ -94,6 +94,21 @@ p {
   /*background:#01DF3A;*/
 }
 
+.dice img.animated {
+  -webkit-animation: filter-animation 5s infinte;
+}
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: sepia(0) saturate(2);
+  }
+  50% {
+    -webkit-filter: sepia(1) saturate(8);
+  }
+  100% {
+    -webkit-filter: sepia(0) saturate(2);
+  }
+}
+
 .clear {
   clear: both;
 }
