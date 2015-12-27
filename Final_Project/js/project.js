@@ -2,6 +2,53 @@
 
 $(document).ready(function () {
 
+  $('.proteinDie').hover(function() {
+    // $(this).addClass('selected');
+    $(this).siblings().addClass('fade');
+  }, function() {
+    // $(this).removeClass('selected');
+    $(this).siblings().removeClass('fade');
+  });
+
+  $('.bulkVegDie').click(function() {
+    $('.bulkVegDie img').css("box-shadow", "0 0 20px rgba(98,192,33,0.4)")
+    .slideUp(2000)
+    .slideDown(2000);
+  })
+
+  $("img[id='proteinDie']").click(function() {
+    $(this).attr("src", "images/Thick-Grey-Smiley3-D6.jpg")
+  })
+
+  $("img[id='bulkVegDie']").click(function() {
+    $(this).attr("src", "images/Thick-Grey-Smiley3-D6.jpg")
+  })
+
+  $("img[id='accentVegDie']").click(function() {
+    $(this).attr("src", "images/Thick-Grey-Smiley3-D6.jpg")
+  })
+
+  $("img[id='cookTypeDie']").click(function() {
+    $(this).attr("src", "images/Thick-Grey-Smiley3-D6.jpg")
+  })
+
+  $("img[id='flavorProfile']").click(function() {
+    $(this).attr("src", "images/Thick-Grey-Smiley3-D6.jpg")
+  })
+  // $('cookTypeDie').click(function() {
+  //   $('flavorProfile, proteinDie').toggleClass('fade');
+  // })
+
+  // $('.accentVegDie').click(function() {
+  //   $('.accentVegDie').addClass('select')
+  //   $('.accentVegDie').removeClass('pick-me')
+  // })
+
+  // $('proteinDie').click(function () {
+  //   $('#recipe').append('<p>appended paragraph</p>');
+  // })
+  
+
   // function activateFilterAnimation(){
   //   $('.dice img').toggleClass('animated');
   // }
