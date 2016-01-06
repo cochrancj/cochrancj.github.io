@@ -192,10 +192,22 @@ p {
   color: blue;
 }
 
-.span {
+.black {
   font-size: 5em;
   font-weight: 100;
   color: black;
+}
+
+.brown {
+  font-size: 5em;
+  font-weight: 100;
+  color: brown;
+}
+
+.pink {
+  font-size: 5em;
+  font-weight: 100;
+  color: pink;
 }
 
 

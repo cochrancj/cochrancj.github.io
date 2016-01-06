@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
 
@@ -17,14 +19,16 @@
 
   <section class="banner">
 
-    <div id="slider">
+<div class="owl-carousel">
+<!--     <div id="slider"> -->
 
       <div class="blurb1">
         <h2>Dinner Picker</h2>
         <p>INTRO COPY EXPLAINING THE SITE - NEED TO WRITE COPY FOR EACH OF THE 5 SLIDES IN THIS BANNER (1 SLIDE PER DIE). WHEN YOU CLICK EACH DIE, THIS BANNER SHOULD CHANGE TO THE INSTRUCTIONS FOR THE CORRESPONDING DIE. In omni memoria patriae religionis sunt diri undead historiarum. Golums, zombies et fascinati. Maleficia! Vel a modern perhsaps morbi. A terrenti contagium. Forsitan illud Apocalypsi, vel malum poenae horrifying fecimus. Indeflexus monstra per plateas currere. Fit de nostra carne undead. Poenitentiam agite pœnitentiam! Vivens mortua sunt apud nos.</p>
       </div>
     
-    </div>
+<!--     </div> -->
+</div>
 
 <!--     <div class="dice">
 
@@ -154,28 +158,14 @@
 </div>
  -->
 
-<!-- 
-
-INSERT FUNCTIONALITY SO THAT
-WHEN EACH DIE IS CLICKED, IT
-GLOWS GREEN - currently set to rotate a bit -
-
-RUN ANIMATION (?) TO RUN THROUGH EXPLANATION. I WANT EACH "SLIDE" TO EXPLAIN 
-A DIFFERENT PART OF WHAT THIS SITE DOES
- -->
-
-
-
-
-
 
 
 <!-- <div class="ingredient-image">
-<img src="images/Chicken.jpg" alt="This is a line drawing of meatballs">
+<img src="images/Meatball-Outline.jpg" alt="This is a line drawing of meatballs">
 </div>
 
 <div class="protein-expanded">
-<h3>Meatballs</h3>
+<span class="brown">Meatballs</span>
 <p>Start with 1 lb. of your favorite ground meat. Add 2 cloves minced garlic, some of the spices called for in your cooking method (1/2 to 1 tsp. of each), a generous pinch Kosher salt, a few cracks black pepper, and a mixture of 1.5 tsp. baking soda mixed with 1 tsp. warm water. Mix well by hand and roll into ping pong  sized balls. </p>
 
 <p>If your cooking style is sautee, soup or stir-fry, cook first (before adding your vaggies). Make sure to brown your meatballs and cook through. </p>
@@ -188,31 +178,30 @@ A DIFFERENT PART OF WHAT THIS SITE DOES
 <div class="clear"></div>
 
 <div class="ingredient-image">
-<img src="images/Chicken.jpg" alt="This is a line drawing of a steak or pork chop">
+<img src="images/Steak-Outline.jpg" alt="This is a line drawing of a steak or pork chop">
 </div>
 
 <div class="protein-expanded">
-<h3>Steaks or Pork Chops</h3>
-<p>Start with 1/2 to 1 inch thick pork chops (boneless if possible) or a similarly thick steak. Pull out of the fridge 15 to 30 minutes before cooking and season liberally with Kosher salt, black pepper and/or your favorite seasoning blend (on both sides).
-If your cooking method is sautee, cook over medium-high heat in 2 Tbsp. of your favorite high smoke point fat (pork fat, coconut oil or avocado oil are my favorites) until browned on each side and cooked to desired doneness. 
+<span class="pink">Steaks or Pork Chops</span>
+<p>Start with 1/2 to 1 inch thick pork chops (boneless if possible) or a similarly thick steak. Pull out of the fridge 15 to 30 minutes before cooking and season liberally with Kosher salt, black pepper and/or your favorite seasoning blend (on both sides). </p>
+<p>If your cooking method is sautee, cook over medium-high heat in 2 Tbsp. of your favorite high smoke point fat (pork fat, coconut oil or avocado oil are my favorites) until browned on each side and cooked to desired doneness. </p>
 
-If your cooking method is stir-fry, cut into bite-sized pieces and throw in after the aromatics if you want your meat more well done, and after the veggies if you want your meat rarer. 
+<p>If your cooking method is stir-fry, cut into bite-sized pieces and throw in after the aromatics if you want your meat more well done, and after the veggies if you want your meat rarer. </p>
 
-If your cooking method is roast, broiling steaks and chops is easy. Just move the top rack of your oven up to the highest slat, and put your meat on a cookie sheet. For a rare steak, broil 2 - 3 minutes per side. For medium pork, broil 3 - 4 minutes per side. 
+<p>If your cooking method is roast, broiling steaks and chops is easy. Just move the top rack of your oven up to the highest slat, and put your meat on a cookie sheet. For a rare steak, broil 2 - 3 minutes per side. For medium pork, broil 3 - 4 minutes per side. </p>
 
-If your cooking method is braise, I would swap chops out for a pork loin and steak for a london broil. 
+<p>If your cooking method is braise, I would swap chops out for a pork loin and steak for a london broil. </p>
 
-If your cooking method is soup or slow cook, I would swap out steak for stew meat and pork chops for pork loin. 
- </p>
+<p>If your cooking method is soup or slow cook, I would swap out steak for stew meat and pork chops for pork loin.</p>
 </div>
 <div class="clear"></div>
 
 <div class="ingredient-image">
-<img src="images/Chicken.jpg" alt="This is a line drawing of ground meat">
+<img src="images/Ground-Meat-Outline.jpg" alt="This is a line drawing of ground meat">
 </div>
 
 <div class="protein-expanded">
-<h3>Ground Meat</h3>
+<span class="brown">Ground Meat</span>
 <p>Start with 1 lb. of your favorite ground meat. Add the seasonings from your cooking method. </p>
 
 <p>If your cooking style is sautee, soup or stir-fry, brown your meat first, before adding veggies. </p>
@@ -223,11 +212,11 @@ If your cooking method is soup or slow cook, I would swap out steak for stew mea
 <div class="clear"></div>
 
 <div class="ingredient-image">
-<img src="images/Chicken.jpg" alt="This is a line drawing of sausage">
+<img src="images/Sausages-Outline.jpg" alt="This is a line drawing of sausage">
 </div>
 
 <div class="protein-expanded">
-<h3>Sausage</h3>
+<span class="brown">Sausage</span>
 <p>Start with 1 lb. of your favorite sausage. Hot Italian is great with Pizza flavorings; bulk pork sausage (usually unseasoned) is a great neutral sausage for Mexican, Buffalo, Pizza or French seasonings; chicken sausages are great in any seasoning; Chorizo is great in both Thai and Mexican seasonings.</p>
 
 <p>If your cooking style is sautee, soup or stir-fry, prick with a fork and cook first (before adding your veggies). Make sure to brown and cook through. </p>
@@ -240,11 +229,11 @@ If your cooking method is soup or slow cook, I would swap out steak for stew mea
 <div class="clear"></div>
 
 <div class="ingredient-image">
-<img src="images/Chicken.jpg" alt="This is a line drawing of a pork shoulder or beef roast">
+<img src="images/Meat-Roast-Outline.jpg" alt="This is a line drawing of a pork shoulder or beef roast">
 </div>
 
 <div class="protein-expanded">
-<h3>Roast Beast</h3>
+<span class="pink">Roast Beast</pink>
 <p>Start with a 2 - 5 lb. boneless hunk of meat. Pork shoulder or butt; beef chuck roast or pot roast.</p>
 
 <p>If your cooking style is sautee, soup or stir-fry, cube into bite-sized pieces. </p>
@@ -258,14 +247,9 @@ If your cooking method is soup or slow cook, I would swap out steak for stew mea
 
  -->
 
-
-<!--  WHAT WOULD BE THE BEST WAY TO HANDLE THESE HEADERS? H1, ETC. LIKE I HAVE, OR WOULD IT BE BETTER TO DO SPANS? YET MORE DIVS? WHAT IS THE BEST PRACTICE HERE?????? --> 
-
-
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/project.js"></script>
+  <script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>
