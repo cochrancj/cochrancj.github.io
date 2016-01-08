@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+$("#carousel").owlCarousel({
+    animateOut: 'slideOutDown',
+    animateIn: 'flipInX',
+    items:1,
+    margin:30,
+    stagePadding:30,
+    smartSpeed:450
+  });
+
+// $('.custom1').owlCarousel({
+//     animateOut: 'slideOutDown',
+//     animateIn: 'flipInX',
+//     items:1,
+//     margin:30,
+//     stagePadding:30,
+//     smartSpeed:450
+// });
+
   $('.proteinDie').hover(function() {
     // $(this).addClass('selected');
     $(this).siblings().addClass('fade');
@@ -59,16 +77,6 @@ $(document).ready(function () {
 // ======================================================
 
  })
-
-$('.custom1').owlCarousel({
-    animateOut: 'slideOutDown',
-    animateIn: 'flipInX',
-    items:1,
-    margin:30,
-    stagePadding:30,
-    smartSpeed:450
-});
-
 
  })
 
