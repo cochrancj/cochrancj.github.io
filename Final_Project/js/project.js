@@ -1,12 +1,26 @@
 $(document).ready(function () {
 
-  // function showpics() {
-  //   var pic = $getJSON('http://api.flickr.com/services/feeds/photos_public.gne?tags="3DPKR3"&tagmode=any&format=json&jsoncallback=?');
-    
-  //   $('.container').append(pic);
-
-
-  // }
+// $('.container').vegas({
+// $elmt.vegas({
+//     delay: 7000,
+//     timer: false,
+//     shuffle: true,
+//     transition: 'slideDown2',
+//     transitionDuration: 2000,
+//     slides: [
+//         { src: "images/Shrimp.jpg" },
+//         { src: "images/Background-2.jpg" },
+//         { src: "images/Background-3.jpg" },
+//         { src: "images/Background-4.jpg" },
+//         { src: "images/Background-5.jpg" },
+//         { src: "images/Background-6.jpg" },
+//         { src: "images/Background-7.jpg" },
+//         { src: "images/Background-8.jpg" },
+//         { src: "images/Background-9.jpg" },
+//         { src: "images/Background-10.jpg" },
+//         { src: "images/Background-11.jpg" }
+//     ]
+// });
 
   $('.proteinDie').click(function() {
     $(this).attr("src", "images/Thick-Grey-Smiley3-D6.jpg")
