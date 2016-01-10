@@ -21,12 +21,13 @@ a {
 }
 
 .container {
-  background-color: (222,222,222);
+  background: url(../images/Shrimp.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 0%;
 }
 
 .banner {
-/*  background: url(../images/XXXXX) center center no-repeat;
-*/  
+  background-color: rgba(255,255,255,0.75);
   background-size: cover;
   padding: 0%;
   box-shadow: inset 0 0 5px rgba(0,0,0,.75);
@@ -49,17 +50,18 @@ p {
 }
 
 .dice {
-  margin-left: 150px;
+  margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  margin-left: 300px;
 }
 
 .dice img {
   height: 100px;
   width: 100px;
   float: left;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .dice img:hover {
@@ -93,7 +95,14 @@ p {
 }
 
 #recipe {
-  width: 100%;
+  /*width: 100%;*/
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+
+#protein-source-output {
+  background-color: rgba(255,255,255,1);
+  border-radius: 5px;
 }
 
 .ingredient-image {
@@ -140,7 +149,7 @@ p {
 .brown {
   font-size: 5em;
   font-weight: 100;
-  color: brown;
+  color: #5E2612;
 }
 
 .pink {
@@ -148,6 +157,26 @@ p {
   font-weight: 100;
   color: pink;
 }
+
+.orange {
+  font-size: 5em;
+  font-weight: 100;
+  color: #FF4500;
+}
+
+.red {
+  font-size: 5em;
+  font-weight: 100;
+  color: #700000;
+}
+
+.purple {
+  font-size: 5em;
+  font-weight: 100;
+  color: #9B30FF;
+}
+
+
 
 
 
