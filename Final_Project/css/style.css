@@ -28,7 +28,7 @@ a {
 }
 
 .container {
-  background: url(../images/Shrimp.jpg) center center no-repeat;
+  background: url(../images/Background-1.jpg) center center no-repeat;
   background-size: cover;
   padding: 0%;
 }
@@ -90,13 +90,13 @@ p {
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-.select {
+/*.select {
   background: url(images/Thick-Grey-Smiley3-D6.jpg);
 }
 
 .pick-me {
   background: url(images/D6-PickMe.jpg);
-}
+}*/
 
 .clear {
   clear: both;
