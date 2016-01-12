@@ -1,15 +1,14 @@
-/*FIX ALL SIZES TO PERCENTAGES
-ADD SOME SORT OF MEDIA QUERY
-
 @media screen and (min-width: 1024px) {
-tyles go here
+
   }
 
-@MEDIA (MIN-WIDTH: 1024PX) {
-  XXXXXX OR 480 OR 320
-}
+@media screen and (min-width: 480px) {
 
-*/
+  }
+
+@media screen and (min-width: 320px) {
+
+  }
 
 body {
   font-family: 'Alegreya Sans', sans-serif;
@@ -25,13 +24,15 @@ a {
 #page-header {
   width: 100%;
   height: 100px;
-/*  margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 
 .container {
-  background: url(../images/Background-1.jpg) center center no-repeat;
-/*  background-size: cover;
-*/  padding: 0%;
+/*  background: url(../images/Background-1.jpg) center center no-repeat;
+*/  background-size: cover;
+  padding: 0%;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .banner {
@@ -122,29 +123,28 @@ p {
 }
 
 #bulk-veg-output {
-  width: 100%;
+  width: 90%;
   background-color: rgba(255,255,255,0.75);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #accent-veg-output {
-  width: 100%;
+  width: 90%;
   background-color: rgba(255,255,255,0.75);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #cook-type-output {
-  width: 100%;
+  width: 90%;
   background-color: rgba(255,255,255,0.75);
   border-radius: 10px;
   margin-bottom: 10px;
-  padding-top: 20px;
 }
 
 #flavor-profile-output {
-  width: 100%;
+  width: 90%;
   background-color: rgba(255,255,255,0.75);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -154,72 +154,84 @@ p {
   font-size: 5em;
   font-weight: 100;
   color: yellow;
+  white-space: nowrap;
 }
 
 .green {
   font-size: 5em;
   font-weight: 100;
   color: green;
+  white-space: nowrap;
 }
 
 .darkgreen {
   font-size: 5em;
   font-weight: 100;
   color: #003300;
+  white-space: nowrap;
 }
 
 .lightgreen {
   font-size: 5em;
   font-weight: 100;
   color: #B3EE3A;
+  white-space: nowrap;
 }
 
 .grey {
   font-size: 5em;
   font-weight: 100;
   color: #D0D2C4;
+  white-space: nowrap;
 }
 
 .blue {
   font-size: 5em;
   font-weight: 100;
   color: blue;
+  white-space: nowrap;
 }
 
 .black {
   font-size: 5em;
   font-weight: 100;
   color: black;
+  white-space: nowrap;
 }
 
 .brown {
   font-size: 5em;
   font-weight: 100;
   color: #5E2612;
+  white-space: nowrap;
 }
 
 .pink {
   font-size: 5em;
   font-weight: 100;
   color: #EE1289;
+  white-space: nowrap;
 }
 
 .orange {
   font-size: 5em;
   font-weight: 100;
   color: #FF8000;
+  white-space: nowrap;
 }
 
 .red {
   font-size: 5em;
   font-weight: 100;
   color: #700000;
+  white-space: nowrap;
 }
 
 .purple {
   font-size: 5em;
   font-weight: 100;
   color: #9B30FF;
+  white-space: nowrap;
 }
 
 
