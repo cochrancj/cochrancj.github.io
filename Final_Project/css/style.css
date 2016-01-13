@@ -12,8 +12,8 @@
 
 body {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 20px;
-  line-height: 2;
+  font-size: 1.5em;
+  line-height: 1.5;
   cursor: default;
 }
 
@@ -23,25 +23,23 @@ a {
 
 #page-header {
   width: 100%;
-  height: 80px;
-  margin-bottom: 20px;
+  height: 5%;
+  margin-bottom: 1%;
   background-color: white;
-  padding-bottom: 40px;
-  padding-left: 50px;
+  padding-left: 5%;
 }
 
 .container {
-/*  background: url(../images/Background-1.jpg) center center no-repeat;
-*/  background-size: cover;
+  background-size: cover;
   padding: 0%;
-  margin-top: 40px;
+  margin-top: 3%;
   width: 100%;
 }
 
 .banner {
   background-color: rgba(255,255,255,0.75);
   padding: 0%;
-  box-shadow: inset 0 0 5px rgba(0,0,0,1);
+  box-shadow: inset 0 0 10px rgba(0,0,0,1);
   width: 90%;
   margin: 0 auto;
   border-radius: 10px;
@@ -52,7 +50,7 @@ a {
 .directions {
   width: 80%;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 2%;
 }
 
 h1 {
@@ -66,20 +64,21 @@ p {
 
 .dice {
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 60px;
-  margin-left: 350px;
-  padding-bottom: 20px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 3%;
 /*  height: 150px;
   position: fixed;*/
 }
 
 .dice img {
-  height: 100px;
-  width: 100px;
+  height: 15%;
+  width: 15%;
   float: left;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 3%;
+  margin-bottom: 3%;
 }
 
 .dice img:hover {
@@ -109,20 +108,20 @@ p {
   width: 90%;
   margin: 0 auto;
   background-color: rgba(255,255,255,0.75);
-  box-shadow: inset 0 0 5px rgba(0,0,0,1);
+  box-shadow: inset 0 0 10px rgba(0,0,0,1);
   border-radius: 10px;
 }
 
 .ingredient-image {
   float: left;
   width: 30%;
-  margin-left: 20px;
-  padding-top: 50px;
+  margin-left: 3%;
+  padding-top: 5%;
 }
 
 .ingredient-image img {
-  height: 150px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
 
 .option-expanded {
@@ -133,36 +132,36 @@ p {
 #protein-source-output {
   width: 90%;
   background-color: rgba(255,255,255,0.75);
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 2%;
+  margin-bottom: 2%;
 }
 
 #bulk-veg-output {
   width: 90%;
   background-color: rgba(255,255,255,0.75);
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 2%;
+  margin-bottom: 2%;
 }
 
 #accent-veg-output {
   width: 90%;
   background-color: rgba(255,255,255,0.75);
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 2%;
+  margin-bottom: 2%;
 }
 
 #cook-type-output {
   width: 90%;
   background-color: rgba(255,255,255,0.75);
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 2%;
+  margin-bottom: 2%;
 }
 
 #flavor-profile-output {
   width: 90%;
   background-color: rgba(255,255,255,0.75);
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 2%;
+  margin-bottom: 2%;
 }
 
 .yellow {
@@ -170,6 +169,7 @@ p {
   font-weight: 100;
   color: yellow;
   white-space: nowrap;
+  overflow: none;
 }
 
 .green {
@@ -177,6 +177,7 @@ p {
   font-weight: 100;
   color: green;
   white-space: nowrap;
+  overflow: none;
 }
 
 .darkgreen {
@@ -184,6 +185,7 @@ p {
   font-weight: 100;
   color: #003300;
   white-space: nowrap;
+  overflow: none;
 }
 
 .lightgreen {
@@ -191,6 +193,7 @@ p {
   font-weight: 100;
   color: #B3EE3A;
   white-space: nowrap;
+  overflow: none;
 }
 
 .grey {
@@ -198,6 +201,7 @@ p {
   font-weight: 100;
   color: #D0D2C4;
   white-space: nowrap;
+  overflow: none;
 }
 
 .blue {
@@ -205,6 +209,7 @@ p {
   font-weight: 100;
   color: blue;
   white-space: nowrap;
+  overflow: none;
 }
 
 .black {
@@ -212,6 +217,7 @@ p {
   font-weight: 100;
   color: black;
   white-space: nowrap;
+  overflow: none;
 }
 
 .brown {
@@ -219,6 +225,7 @@ p {
   font-weight: 100;
   color: #5E2612;
   white-space: nowrap;
+  overflow: none;
 }
 
 .pink {
@@ -226,6 +233,7 @@ p {
   font-weight: 100;
   color: #EE1289;
   white-space: nowrap;
+  overflow: none;
 }
 
 .orange {
@@ -233,6 +241,7 @@ p {
   font-weight: 100;
   color: #FF8000;
   white-space: nowrap;
+  overflow: none;
 }
 
 .red {
@@ -240,6 +249,7 @@ p {
   font-weight: 100;
   color: #CD0000;
   white-space: nowrap;
+  overflow: none;
 }
 
 .purple {
@@ -247,6 +257,7 @@ p {
   font-weight: 100;
   color: #9B30FF;
   white-space: nowrap;
+  overflow: none;
 }
 
 
