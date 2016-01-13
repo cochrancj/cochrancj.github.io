@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  $('.container').vegas({
+  $('body').vegas({
     delay: 7000,
     timer: false,
     shuffle: true,
@@ -17,14 +17,26 @@ $(document).ready(function () {
         { src: "images/Background-8.jpg" },
         { src: "images/Background-9.jpg" },
         { src: "images/Background-10.jpg" },
-        { src: "images/Background-11.jpg" }
+        { src: "images/Background-11.jpg" },
+        { src: "images/Background-12.jpg" },
+        { src: "images/Background-13.jpg" },
+        { src: "images/Background-14.jpg" },
+        { src: "images/Background-15.jpg" }
     ]
   });
+
+  $.fn.scrollView = function () {
+    return this.each(function () {
+      $('html, body').animate({
+        scrollTop: $(this).offset().top
+          }, 1000);
+    });
+  }
 
 
   $("img[id='proteinDie']").click(function() {
     $(this).attr("src", "images/D6-Smiley-R.png")
-    $(this).prev().addClass('fade');
+    // $(this).prev().addClass('fade');
     if ($("#protein-source-output").children().length == 0) {
       var proteinTypes = [
         '<div class="ingredient-image"><img src="images/Chicken.png" alt="This is a line drawing of a Chicken leg"></div><div class="option-expanded"><span class="yellow">Chicken</span> <p>Start with boneless, skinless chicken breasts or thighs. If your cooking style is saut&#233;, stir-fry, or soup; cut into bite-sized pieces before cooking. If your cooking style is braise, roast or slow cook; leave whole. Whatever cooking method is chosen, take care to cook the chicken all the way through.</p></div>',
@@ -40,9 +52,15 @@ $(document).ready(function () {
     }
   })
 
+  $("img[id='proteinDie']").click(function (event) {
+    event.preventDefault();
+      $("#protein-source-output").scrollView();
+  });
+
+
   $("img[id='bulkVegDie']").click(function() {
     $(this).attr("src", "images/D6-Smiley-C.png")
-    $(this).prev().addClass('fade');
+    // $(this).prev().addClass('fade');
     if ($("#bulk-veg-output").children().length == 0) {
       var bulkVegTypes = [
         '<div class="ingredient-image"><img src="images/Cabbage.png" alt="This is a line drawing of cabbage"></div><div class="option-expanded"><span class="lightgreen">Cabbage Noodles</span><p>To make cabbage "noodles", Halve and core your cabbage and cut into 1/4 to 1/2 inch thick ribbons. If your cooking style is saut&#233; or stir-fry, add the noodles after the protein is cooked through. If your cooking style is brasie, soup, roast or slow cook, add at the beginning with everything else.</p></div>',
@@ -58,9 +76,15 @@ $(document).ready(function () {
     }
   })
 
+  $("img[id='bulkVegDie']").click(function (event) {
+    event.preventDefault();
+      $("#bulk-veg-output").scrollView();
+  });
+
+
   $("img[id='accentVegDie']").click(function() {
     $(this).attr("src", "images/D6-Smiley-L.png")
-    $(this).prev().addClass('fade');
+    // $(this).prev().addClass('fade');
     if ($("#accent-veg-output").children().length == 0) {
       var accentVegTypes = [
         '<div class="ingredient-image"><img src="images/Bell-Pepper.png" alt="This is a line drawing of a bell pepper"></div><div class="option-expanded"><span class="green">Bell Pepper</span><p>Slice your pepper in half. De-seed and chop. Good to use with any cooking method.</p></div>',
@@ -76,9 +100,15 @@ $(document).ready(function () {
     }
   })
 
+  $("img[id='accentVegDie']").click(function (event) {
+    event.preventDefault();
+      $("#accent-veg-output").scrollView();
+  });
+
+
   $("img[id='cookTypeDie']").click(function() {
     $(this).attr("src", "images/D6-Smiley-R.png")
-    $(this).prev().addClass('fade');
+    // $(this).prev().addClass('fade');
     if ($("#cook-type-output").children().length == 0) {
       var cookTypeTypes = [
         '<div class="ingredient-image"><img src="images/Wok.png" alt="This is a line drawing of a wok"></div><div class="option-expanded"><span class="black">Stir-Fry</span> <p>Grab a wok or your largest and heaviest frying pan. Set the heat to high, and add a couple Tablespoons of a fat with a high smoke point (sesame oil is great for Asian style cooking&#059; grapeseed or avocado oil is a nice neutral base for other cooking types). When the pan is hot (almost smoking), add your ingredients. Take care to continually stir your food to avoid burning. Your dinner is done when your protein is cooked through and your veggies are softened and browned in spots.</p></div>',
@@ -93,9 +123,15 @@ $(document).ready(function () {
     }
   })
 
+  $("img[id='cookTypeDie']").click(function (event) {
+    event.preventDefault();
+      $("#cook-type-output").scrollView();
+  });
+
+
   $("#flavorProfile").click(function() {
     $(this).attr("src", "images/D6-Smiley-C.png")
-    $(this).prev().addClass('fade');
+    // $(this).prev().animate({opacity:'0.5'});
     if ($("#flavor-profile-output").children().length == 0) {
       var flavorProfiles = [
         '<div class="ingredient-image"><img src="images/Thailand.png" alt="this is the Thai flag"></div><div class="option-expanded"><span class="yellow">Thai</span><p>Juice of 1 lime<br> 2 Tbsp. Fish sauce (Red Boat brand is paleo-friendly)<br> 2 Tbsp. Coconut aminos<br> 1-2 Tbsp. sriracha<br> 2 cloves garlic, minced<br> 1/2 inch knob ginger, peeled and minced<br> 2 Tbsp. cilantro, chopped (optional)</p> <p>If you are saut&#233;ing or stir-frying: Add the garlic and ginger before you add your protein and veggies. Let cook 1 - 2 minutes.</p> <p>When your protein and veggies have been added and have been cooking a few minutes (about halfway done), add the fish sauce, lime juice, and coconut aminos. Let cook until the liquid has evaporated.</p> <p>Add the cilantro and sriracha after your dinner is cooked to its desired doneness.</p> <p>If you are braising, roasting, slow-cooking or turning this dish into a soup, add the Thai seasoning ingredients at the beginning of the cooking process. Use the lime juice, sriracha and cilantro as a garnish after your dish has been cooked.</p></div>',
@@ -110,6 +146,11 @@ $(document).ready(function () {
       $("#flavor-profile-output").append(flavorProfiles[randomNum]);
     }
   })
+
+  $("img[id='flavorProfile']").click(function (event) {
+    event.preventDefault();
+      $("#flavor-profile-output").scrollView();
+  });
 
 
   // ==========================================================

@@ -23,8 +23,11 @@ a {
 
 #page-header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   margin-bottom: 20px;
+  background-color: white;
+  padding-bottom: 40px;
+  padding-left: 50px;
 }
 
 .container {
@@ -38,12 +41,18 @@ a {
 .banner {
   background-color: rgba(255,255,255,0.75);
   padding: 0%;
-  box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+  box-shadow: inset 0 0 5px rgba(0,0,0,1);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+/*  height: 350px;
+  position: fixed;*/
 }
 
 .directions {
   width: 80%;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 h1 {
@@ -59,7 +68,10 @@ p {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 60px;
-  margin-left: 300px;
+  margin-left: 350px;
+  padding-bottom: 20px;
+/*  height: 150px;
+  position: fixed;*/
 }
 
 .dice img {
@@ -76,13 +88,13 @@ p {
   transform: rotateZ(-30deg);
 }
 
-.fade_click {
+/*.fade_click {
   background: #fff;
 }
 
 .fade {
   opacity: .5;
-}
+}*/
 
 .selected {
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
@@ -93,9 +105,11 @@ p {
 }
 
 #recipe {
+/*  padding-top: 150px;*/
   width: 90%;
   margin: 0 auto;
   background-color: rgba(255,255,255,0.75);
+  box-shadow: inset 0 0 5px rgba(0,0,0,1);
   border-radius: 10px;
 }
 
@@ -103,6 +117,7 @@ p {
   float: left;
   width: 30%;
   margin-left: 20px;
+  padding-top: 50px;
 }
 
 .ingredient-image img {
@@ -223,7 +238,7 @@ p {
 .red {
   font-size: 5em;
   font-weight: 100;
-  color: #700000;
+  color: #CD0000;
   white-space: nowrap;
 }
 
