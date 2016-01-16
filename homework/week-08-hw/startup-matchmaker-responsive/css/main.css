@@ -6,8 +6,22 @@ body {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 100%;
   margin: auto;
+}
+
+#taste {
+  color: #999;
+  text-decoration: line-through;
+}
+
+#are {
+  border-bottom: 3px solid yellow;
+}
+
+#icon {
+  display: none;
+  padding: 15px;
 }
 
 #large-nav {
@@ -21,14 +35,19 @@ body {
 
 #small-nav {
   display: none;
+  float: none;
+  text-align: center;
+  width: auto;
+  padding: 1em;
+  border-bottom: 1px solid black;
 }
 
-/*#small-nav a {
+#small-nav a {
   display: block;
   color: blue;
   background-color: #C6C6C6;
   border-bottom: #AAA;
-}*/
+}
 
 #icon {
   display: none;
@@ -73,6 +92,32 @@ p {
   padding: 12px;
   box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
   border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: inset 0 3px 0 rgba(0,0,0,.2);
+}
+
+.callouts {
+  background: #EEE;
+  overflow: hidden;
+  padding: 2% 0;
+}
+
+.callout {
+  float: left;
+  width: 33.3333%;
+  padding: 2% 3%;
+  box-sizing: border-box;
+  border-right: 1px solid rgb(200,200,200);
+}
+
+.callout:last-child {
+  border: none;
+}
+
+.callout .button {
+  background: #C6C6C6;
 }
 
 #page-header {
