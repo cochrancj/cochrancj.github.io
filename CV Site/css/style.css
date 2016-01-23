@@ -2,7 +2,7 @@
 */
 body {
   padding: 30px 0;
-  background-color: #2f3439;
+  background-color: rgba(0,0,0,0.80);
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -29,10 +29,10 @@ body {
  * Optional centered circle w/text
  * ------------------------------------- */
 .progress-radial .overlay {
-  position: absolute;
+  position: relative;
   width: 60px;
   height: 60px;
-  background-color: #fffde8;
+  background-color: #f2f2f2;
   border-radius: 50%;
   margin-left: 20px;
   margin-top: 20px;
@@ -65,7 +65,7 @@ body {
 }
 
 .progress-25 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #ff6347 50%, #2f3439 50%, #2f3439);
+  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #bf00ff 50%, #2f3439 50%, #2f3439);
 }
 
 .progress-30 {
@@ -85,7 +85,7 @@ body {
 }
 
 .progress-50 {
-  background-image: linear-gradient(-90deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+  background-image: linear-gradient(-90deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #39e600 50%, #2f3439 50%, #2f3439);
 }
 
 .progress-55 {
@@ -105,7 +105,7 @@ body {
 }
 
 .progress-75 {
-  background-image: linear-gradient(0deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+  background-image: linear-gradient(0deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3384ff 50%, #2f3439 50%, #2f3439);
 }
 
 .progress-80 {
@@ -148,7 +148,7 @@ h2.trigger a {
 }
 h2.trigger a:hover { color: #ccc; }
 h2.active {background-position: left bottom;} /*--When toggle is triggered, it will shift the image to the bottom to show its "opened" state--*/
-.toggle_container {
+#toggle_container_1 {
     margin: 0 0 5px;
     padding: 0;
     border-top: 1px solid #d6d6d6;
@@ -158,9 +158,49 @@ h2.active {background-position: left bottom;} /*--When toggle is triggered, it w
     width: 500px;
     clear: both;
 }
-.toggle_container .block {
+#toggle_container_1 .block {
     padding: 20px; /*--Padding of Container--*/
     background: url(toggle_block_btm.gif) no-repeat left bottom; /*--Bottom rounded corners--*/
+}
+
+
+.collapse {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: red;
+}
+
+/*SKINNY PROGRESS BARS*/
+
+.row {
+  padding-top: 50px;
+  font-family: 'Titillium web';
+  font-weight: 400 ;
+}
+
+.chart {
+    position:relative;
+    width:165px;
+    height:165px;
+    margin: 0 auto;
+    font-family: 'Titillium web';
+    font-weight: 300 ;
+
+}
+canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+span {
+    color:#555;
+    display:block;
+    line-height:165px;
+    text-align:center;
+    width:165px;
+    font-size:40px;
+    font-weight:300;
+    margin-left:5px;
 }
 
 

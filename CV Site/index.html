@@ -2,6 +2,7 @@
 <html>
 <head>
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
 
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -10,11 +11,45 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 
-  <title>CV</title>
+  <title>Carolyn Cochran CV</title>
 </head>
 
 <body>
 
+<!-- SKINNY PROGRESS BARS -->
+
+  <div class="container">
+    <div class="row">
+      <figure class="col-md-3 col-sm-3 text-center">
+        <div class="chart" id="graph1" data-percent="70" data-color="#30bae7">
+        </div>
+        <figcaption>
+          <h3>Web design</h3>
+        </figcaption>
+      </figure>
+      <figure class="col-md-3 col-sm-3 text-center">
+        <div class="chart" id="graph2" data-percent="90" data-color="#d74680">
+        </div>
+        <figcaption>
+          <h3>HTML/CSS</h3>
+        </figcaption>
+      </figure>
+      <figure class="col-md-3 col-sm-3 text-center">
+        <div class="chart" id="graph3" data-percent="50" data-color="#15c7a8"></div>
+        <figcaption>
+          <h3>Graphic design</h3>
+        </figcaption>
+      </figure>
+      <figure class="col-md-3 col-sm-3 text-center">
+        <div class="chart" id="graph4" data-percent="75" data-color="#eb7d4b"></div>
+        <figcaption>
+          <h3>UI / UX</h3>
+        </figcaption>
+      </figure>
+    </div>
+
+<!--     ++++++++++++++++
+ -->
 <div class="wrap">
   
 <div class="progress-radial progress-25">
@@ -34,41 +69,97 @@
 </div>
   
 </div>
+
+
 <br><br>
-
-<!-- OPTION 1 -->
-
-<!-- <div class='toggle'>
-    <h2>Read More</h2>
-    <div class="togglebox">
-      <div class="content">
-        <h3>   
-           <p>
-              A new exciting way to broadcast your business to customers     
-              A new exciting way to broadcast your business.Lorem ipsum 
-           </p>
-        </h3>
-        <!--Content Here-->
- <!--      </div>
-    </div>
- </div> -->
 
  <br><br>
 
-<!--  OPTION 2 -->
+<!--  TOGGLE TEXT-->
 
-    <h2 class="trigger"><a href="#">Toggle Header</a></h2>
-<div class="toggle_container">
+      <h2 class="trigger"><a href="#">+</a></h2> 
+<div id="toggle_container_1">
     <div class="block">
         <h3>Content Header</h3>
-        <!--Content-->
+        Content
     </div>
+</div>
+
+
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>My First Bootstrap Page</h1>
+    <p>Resize this responsive page to see the effect! <h2 class="trigger"><a href="#">+</a></h2></p> 
+  </div>
+
+
+
+<div class="row">
+
+<div id="toggle_container_1" class="col-sm-12">
+<h3>Content Header</h3>
+<p>Content</p>
+</div>
+<!-- </div> -->
+</div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+<!-- COLLAPSABLE BUTTON -->
+
+<div class="container">
+  <h2>Expand Experience</h2>
+  <p>This expands the toggle box where experience progress bars will be located.</p>
+
+  <div id="expand">+</div>
+
+  <!-- <button type="button" class="btn btn-primary">Toggle</button> -->
+    
+  <div class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<div class="container">
+  <h2>Animated Progress Bar</h2>
+  <p>The .active class animates the progress bar:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      40%
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+<p>Plus icon: <span class="glyphicon glyphicon-plus"></span></p>
+<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/project.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+ 
 </body>
 <footer></footer>
 </html>
