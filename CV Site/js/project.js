@@ -1,4 +1,4 @@
-
+// 
 
 
 
@@ -28,6 +28,26 @@
     $(document).ready(function(){
     $("#expand").click(function(){
         $(".collapse").collapse('toggle');
+    });
+});
+
+    $(document).ready(function(){
+    $("#expand2").click(function(){
+        $(".collapse2").collapse('toggle');
+    });
+});
+
+
+
+    $(document).ready(function(){
+    $("#expand3").click(function(){
+        $(".collapse3").collapse('toggle');
+    });
+});
+
+        $(document).ready(function(){
+    $("#expand4").click(function(){
+        $(".collapse4").collapse('toggle');
     });
 });
 
