@@ -2,7 +2,7 @@
 
 
 
-  // TOGGLE TEXT
+  // ATTEMPT AT TOGGLING CONTAINER
 
   $(document).ready(function(){
 
@@ -25,11 +25,15 @@
 //     });
 // });
 
+// COLLAPSABLE PROGRESS BARS
+
     $(document).ready(function(){
     $("#expand").click(function(){
         $(".collapse").collapse('toggle');
     });
 });
+
+// COLLAPSABLE COPYWRITING 3-COLUMN
 
     $(document).ready(function(){
     $("#expand2").click(function(){
@@ -44,6 +48,8 @@
         $(".collapse3").collapse('toggle');
     });
 });
+
+// COLLAPSABLE EDITING 3-COLUMN
 
         $(document).ready(function(){
     $("#expand4").click(function(){
@@ -119,6 +125,14 @@
     drawNewGraph('graph2');
     drawNewGraph('graph3');
     drawNewGraph('graph4');
+    drawNewGraph('graph5');
+    drawNewGraph('graph6');
+    drawNewGraph('graph7');
+    drawNewGraph('graph8');
+    drawNewGraph('graph9');
+    drawNewGraph('graph10');
+    drawNewGraph('graph11');
+    drawNewGraph('graph12');
 
 
 });
