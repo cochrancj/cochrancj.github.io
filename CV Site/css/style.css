@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-/*  background-color: rgba(0,0,0,0.05);*/
+/*  background-color: rgba(0,0,0,0.80);*/
 }
 
 /*/*/
@@ -89,14 +89,15 @@ h2.trigger a:hover {
     margin: 0 auto;
     font-family: 'Titillium web';
     font-weight: 300 ;
-
 }
+
 canvas {
     display: block;
     position:absolute;
     top:0;
     left:0;
 }
+
 span {
     color:#555;
     display:block;
@@ -107,5 +108,21 @@ span {
     font-weight:300;
     margin-left:5px;
 }
+
+#bigbox {
+  color: grey;
+  border: 5px solid rgba(107,177,32,0.5);
+}
+
+
+
+.copyright {
+  position: relative;
+  float: right;
+  width: 200px;
+  height: 200px;
+  clear: both;
+}
+
 
 
