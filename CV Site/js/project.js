@@ -1,8 +1,4 @@
-// 
-
-
-
-  // ATTEMPT AT TOGGLING CONTAINER
+ // ATTEMPT AT TOGGLING CONTAINER
 
   $(document).ready(function(){
 
@@ -134,6 +130,9 @@
     drawNewGraph('graph11');
     drawNewGraph('graph12');
 
-
-
 });
+
+
+
+
+ 
