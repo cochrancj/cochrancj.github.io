@@ -1,0 +1,95 @@
+body {
+/*  background-color: #555555;*/
+background-image: url(../images/GrandCentral.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: none;
+}
+
+p {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.jumbotron {
+  background-color: rgba(185,197,200,0.75);
+/*  box-shadow:-1px -1px 15px 11px #8f25b8;
+*/  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.nav-boxes {
+  padding-left: 80px;
+  padding-top: 270px;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.nav-button {
+  display: inline-block;
+  width: 150px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+
+.nav-button:hover,
+.nav-button:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 20px;
+}
+
+.arrow-dn ul {
+  list-style: none;
+}
+
+.arrow-dn li::before {
+  position: relative;
+  top: 3pt;
+  content: "";
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.2em solid white;
+  border-top: 0.2em solid white;
+  transform: rotate(135deg);
+  margin-right: 0.5em;
+  margin-left: 475px;
+}
+
+.arrow-dn li:hover {
+}
+
+.arrow-dn li:hover::before {
+  border-color: #8f25b8;
+}
+
+
+

@@ -1,0 +1,1 @@
+Have color scheme change when each box is clicked. 
