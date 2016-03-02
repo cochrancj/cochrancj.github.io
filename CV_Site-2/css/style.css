@@ -1,23 +1,39 @@
 body {
-/*  background-color: #555555;*/
 background-image: url(../images/GrandCentral.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: none;
 }
 
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
 p {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 1.5px;
   -webkit-font-smoothing: antialiased;
 }
 
+/*.header {
+  background-color: #555555;
+  height: 100px;
+}*/
+
+/*.wrapper {
+  background-image: url(../images/GrandCentral.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}*/
+
 .jumbotron {
   background-color: rgba(185,197,200,0.75);
-/*  box-shadow:-1px -1px 15px 11px #8f25b8;
-*/  width: 1000px;
+  width: 1000px;
   height: 600px;
   margin: 0 auto;
   margin-top: 100px;
@@ -94,13 +110,127 @@ li {
   border-color: #8f25b8;
 }
 
-#toggle_container_1 {
+#toggle_about {
   background-color: rgba(192,192,192,0.3);
-  color: black;
+  color: white;
   display: none;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
 
+footer {
+  background-color: #555555;
+  height: 100px;
+}
+
+footer h1 {
+  float: right;
+}
+
+@font-face {
+    font-family: 'si';
+    src: url('PATH_TO/socicon.eot');
+    src: url('PATH_TO/socicon.eot?#iefix') format('embedded-opentype'),
+         url('PATH_TO/socicon.woff') format('woff'),
+         url('PATH_TO/socicon.ttf') format('truetype'),
+         url('PATH_TO/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 18px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-right: 32px;
+    color: #ffffff;
+    background-color: #b9c5c8;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-email1:before {
+    content:'<';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-behance:before {
+    content:'H';
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-flickr:before {
+    content:'v';
+}
+.soc-instagram:before {
+    content:'x';
+}
 
 
 

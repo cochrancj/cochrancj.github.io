@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
     //Hide (Collapse) the toggle containers on load
-    $("#toggle_container_1").hide(); 
+    $("#toggle_about").hide(); 
     //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
     $(".arrow-dn").click(function(){
         $(this).toggleClass("active").next().slideToggle("slow");
