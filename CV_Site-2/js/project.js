@@ -1,12 +1,23 @@
-// Have color scheme change when each box is clicked. 
-
 $(document).ready(function(){
-    //Hide (Collapse) the toggle containers on load
-    $("#toggle_about").hide(); 
-    //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
-    $(".arrow-dn").click(function(){
-        $(this).toggleClass("active").next().slideToggle("slow");
-        return false; //Prevent the browser jump to the link anchor
-    });
+
+  $(".nav-button-about").click(function() {
+    $("#toggle_about").toggle(1000);
+  });
+
+  $(".nav-button-cv").click(function() {
+    $("#toggle_cv").toggle(1000);
+  });
+
+  $(".nav-button-design").click(function() {
+    $("#toggle_design").toggle(1000);
+  });
+
+  $(".nav-button-photography").click(function() {
+    $("#toggle_photography").toggle(1000);
+  });
+
+  $(".nav-button-writing").click(function() {
+    $("#toggle_writing").toggle(1000);
+  });
 
 });
