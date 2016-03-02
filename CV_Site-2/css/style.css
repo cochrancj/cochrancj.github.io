@@ -117,6 +117,8 @@ li {
 }
 
 .img-circle {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
@@ -129,7 +131,7 @@ footer h1 {
   float: right;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'si';
     src: url('PATH_TO/socicon.eot');
     src: url('PATH_TO/socicon.eot?#iefix') format('embedded-opentype'),
@@ -230,7 +232,7 @@ footer h1 {
 }
 .soc-instagram:before {
     content:'x';
-}
+}*/
 
 
 
