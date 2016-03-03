@@ -55,7 +55,7 @@ ul {
 .large {
   background-color: rgba(185,197,200,.95);
   width: 1000px;
-  height: 1000px;
+  height: 800px;
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -262,24 +262,40 @@ ul {
 }
 
 footer {
-  background-color: #555555;
+  background-color: black;
   height: 100px;
 }
+
 
 .name {
   float: left;
   padding-right: 10px;
   margin-left: 10px;
+  margin-top: -50px;
 }
 
 .social-media {
-  float: left;
+  float: right;
+  padding-right: 10px;
+  margin-top: 10px;
 }
 
-.social-media ul {
+.social-media li {
+  display: inline-block;
   list-style-type: none;
-  display: inline;
-  padding: 20px;
+  /*padding: 20px;*/
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+
+.social-media li:hover,
+.social-media li:active {
+  background-color: #fff; /*fallback*/
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff; /*fallback*/
+  border-color: rgba(255,255,255,0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
 }
 
 .social-media img {
@@ -290,7 +306,3 @@ footer {
 .clear {
   float: none;
 }
-
-
-
-
