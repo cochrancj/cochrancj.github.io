@@ -2,10 +2,12 @@ $(document).ready(function(){
 
   $(".nav-button-about").click(function() {
     $("#toggle_about").toggle(1000);
+    $(".jumbotron").addClass("large");
   });
 
   $(".nav-button-cv").click(function() {
     $("#toggle_cv").toggle(1000);
+    $(".jumbotron").addClass("extralarge");
   });
 
   $(".nav-button-design").click(function() {

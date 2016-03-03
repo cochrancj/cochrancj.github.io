@@ -8,18 +8,19 @@ background-repeat: none;
 h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
   color: white;
-  font-size: 30px;
-  font-weight: 100;
-}
-
-h2 {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
-  font-size: 30px;
+  font-size: 80px;
   font-weight: 100;
 }
 
 p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -43,6 +44,30 @@ p {
   background-color: rgba(185,197,200,0.75);
   width: 1000px;
   height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-width: 5px;
+  border-style: double;
+  border-color: white;
+}
+
+.large {
+  background-color: rgba(185,197,200,.95);
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-width: 5px;
+  border-style: double;
+  border-color: white;
+}
+
+.extralarge {
+  background-color: rgba(185,197,200,.95);
+  width: 1000px;
+  height: 2200px;
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -173,14 +198,14 @@ p {
               border-color 0.3s ease-in;
 }
 
-ul {
+.nav-boxes ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.nav-boxes li {
   float: left;
   padding: 20px;
 }
@@ -194,6 +219,11 @@ li {
 #toggle_cv {
   color: white;
   display: none;
+  padding-left: 10px;
+}
+
+#toggle_cv ul {
+  list-style-type: none;
 }
 
 #toggle_design {
@@ -206,9 +236,23 @@ li {
   display: none;
 }
 
+#toggle_photography img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 200px;
+  height: 90px;
+}
+
 #toggle_writing {
   color: white;
   display: none;
+}
+
+#toggle_writing img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 200px;
+  height: 90px;
 }
 
 .img-circle {
@@ -222,19 +266,30 @@ footer {
   height: 100px;
 }
 
-footer h1 {
+.name {
+  float: left;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.social-media {
   float: left;
 }
 
-footer h2 {
-  float: right;
+.social-media ul {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+
+.social-media img {
+  height: 45px;
+  width: 45px;
 }
 
 .clear {
   float: none;
 }
-
-
 
 
 
