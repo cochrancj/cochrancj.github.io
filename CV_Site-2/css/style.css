@@ -3,19 +3,20 @@ background-image: url(../images/GrandCentral.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: none;
+font-size: 16px;
 }
 
 h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
   color: white;
-  font-size: 80px;
+  font-size: 5em;
   font-weight: 100;
 }
 
 p {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.3em;
   letter-spacing: 1.5px;
   -webkit-font-smoothing: antialiased;
 }
@@ -23,7 +24,7 @@ p {
 ul {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.3em;
   letter-spacing: 1.5px;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,11 +43,11 @@ ul {
 
 .jumbotron {
   background-color: rgba(185,197,200,0.75);
-  width: 1000px;
+  width: 90%;
   height: 600px;
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-width: 5px;
   border-style: double;
   border-color: white;
@@ -54,40 +55,42 @@ ul {
 
 .large {
   background-color: rgba(185,197,200,.95);
-  width: 1000px;
-  height: 800px;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-width: 5px;
   border-style: double;
   border-color: white;
-  padding-left: 20px;
+  padding-left: 1%;
 }
 
 .extralarge {
   background-color: rgba(185,197,200,.95);
-  width: 1000px;
-  height: 2200px;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-width: 5px;
   border-style: double;
   border-color: white;
-  padding-left: 20px;
+  padding-left: 1%;
 }
 
 .nav-boxes {
-  padding-left: 60px;
-  padding-top: 260px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 25%;
+  padding-bottom: 25%;
   font-family: 'Julius Sans One', sans-serif;
 
 }
 
 .nav-button-about {
   display: inline-block;
-  width: 115px;
+  width: 100%;
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;
@@ -110,7 +113,7 @@ ul {
 
 .nav-button-cv {
   display: inline-block;
-  width: 115px;
+  width: 100%;
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;
@@ -133,7 +136,7 @@ ul {
 
 .nav-button-design {
   display: inline-block;
-  width: 115px;
+  width: 100%;
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;
@@ -156,7 +159,7 @@ ul {
 
 .nav-button-photography {
   display: inline-block;
-  width: 115px;
+  width: 100%;
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;
@@ -179,7 +182,7 @@ ul {
 
 .nav-button-writing {
   display: inline-block;
-  width: 115px;
+  width: 100%;
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;
@@ -209,7 +212,7 @@ ul {
 
 .nav-boxes li {
   float: left;
-  padding: 20px;
+  padding: 2%;
 }
 
 
@@ -314,4 +317,42 @@ footer {
 .clear {
   float: none;
 }
+
+@media screen and (max-width: 774px) {
+    footer {
+      width: 100%;
+      height: 400px;
+    }
+
+    .name {
+      margin-left: 2%;
+    }
+
+    .social-media {
+      margin-top: -15%;
+    }
+
+    .social-media li {
+      display: inline-block;
+      list-style-type: none;
+      /*padding: 20px;*/
+      transition: background-color 0.2s ease-out,
+                  border-color 0.2s ease-out;
+    }
+
+    .social-media li:hover,
+    .social-media li:active {
+      background-color: #fff; /*fallback*/
+      background-color: rgba(255,255,255,0.4);
+      border-color: #fff; /*fallback*/
+      border-color: rgba(255,255,255,0.4);
+      transition: background-color 0.3s ease-in,
+                  border-color 0.3s ease-in;
+    }
+
+    .social-media img {
+      height: 45px;
+      width: 45px;
+    }
+  }
 
