@@ -62,6 +62,7 @@ ul {
   border-width: 5px;
   border-style: double;
   border-color: white;
+  padding-left: 10px;
 }
 
 .extralarge {

@@ -12,14 +12,17 @@ $(document).ready(function(){
 
   $(".nav-button-design").click(function() {
     $("#toggle_design").toggle(1000);
+    $(".jumbotron").toggleClass("large");
   });
 
   $(".nav-button-photography").click(function() {
     $("#toggle_photography").toggle(1000);
+    $(".jumbotron").toggleClass("large");
   });
 
   $(".nav-button-writing").click(function() {
     $("#toggle_writing").toggle(1000);
+    $(".jumbotron").toggleClass("large");
   });
 
 });
