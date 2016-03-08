@@ -62,7 +62,7 @@ ul {
   border-width: 5px;
   border-style: double;
   border-color: white;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .extralarge {
@@ -75,6 +75,7 @@ ul {
   border-width: 5px;
   border-style: double;
   border-color: white;
+  padding-left: 20px;
 }
 
 .nav-boxes {
@@ -220,7 +221,6 @@ ul {
 #toggle_cv {
   color: white;
   display: none;
-  padding-left: 10px;
 }
 
 #toggle_cv ul {
