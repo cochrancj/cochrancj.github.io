@@ -77,15 +77,16 @@ ul {
   border-style: double;
   border-color: white;
   padding-left: 1%;
+  padding-right: 1%;
 }
 
 .nav-boxes {
-  padding-left: 20%;
-  padding-right: 20%;
+  /*display: inline-block;*/
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 25%;
   padding-bottom: 25%;
   font-family: 'Julius Sans One', sans-serif;
-
 }
 
 .nav-button-about {
@@ -319,40 +320,84 @@ footer {
 }
 
 @media screen and (max-width: 774px) {
+
+    p {
+    font-size: 1em;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    .jumbotron {
+    height: 500px;
+    }
+
+    .nav-boxes {
+    display: block;
+    margin-top: 20px;
+    padding-left: 30%;
+    padding-right: 50%;
+    padding-top: 30%;
+    padding-bottom: 25%;
+    font-family: 'Julius Sans One', sans-serif;
+    }
+
+    .large {
+    background-color: rgba(185,197,200,.95);
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+
+    .extralarge {
+    background-color: rgba(185,197,200,.95);
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+
+    #toggle_cv ul {
+    font-size: 1em;
+    }
+
     footer {
       width: 100%;
-      height: 400px;
+      height: 150px;
     }
 
     .name {
-      margin-left: 2%;
+      margin-top: 2%;
+      margin-left: 4%;
+      padding-left: 7%;
+      float: none;
+    }
+
+    .name h1 {
+      font-size: 2.5em;
     }
 
     .social-media {
-      margin-top: -15%;
-    }
-
-    .social-media li {
-      display: inline-block;
-      list-style-type: none;
-      /*padding: 20px;*/
-      transition: background-color 0.2s ease-out,
-                  border-color 0.2s ease-out;
-    }
-
-    .social-media li:hover,
-    .social-media li:active {
-      background-color: #fff; /*fallback*/
-      background-color: rgba(255,255,255,0.4);
-      border-color: #fff; /*fallback*/
-      border-color: rgba(255,255,255,0.4);
-      transition: background-color 0.3s ease-in,
-                  border-color 0.3s ease-in;
+      margin-top: 0.5%;
+      float: none;
     }
 
     .social-media img {
-      height: 45px;
-      width: 45px;
+      height: 40px;
+      width: 40px;
     }
+
   }
 
