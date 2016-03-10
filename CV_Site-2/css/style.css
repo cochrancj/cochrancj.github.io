@@ -105,6 +105,7 @@ ul {
   text-decoration: none;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
+  cursor: pointer;
 }
 
 .nav-button-about:hover,
@@ -128,6 +129,7 @@ ul {
   text-decoration: none;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
+  cursor: pointer;
 }
 
 .nav-button-cv:hover,
@@ -151,6 +153,7 @@ ul {
   text-decoration: none;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
+  cursor: pointer;
 }
 
 .nav-button-design:hover,
@@ -174,6 +177,7 @@ ul {
   text-decoration: none;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
+  cursor: pointer;
 }
 
 .nav-button-photography:hover,
@@ -197,6 +201,7 @@ ul {
   text-decoration: none;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
+  cursor: pointer;
 }
 
 .nav-button-writing:hover,
