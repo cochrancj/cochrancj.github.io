@@ -374,6 +374,11 @@ footer {
     padding-right: 1%;
     }
 
+   /* WHY IS EVERYTHING SHOWING UP FINE WHEN 
+    PHOTOS AND WRITING ARE EXPANDED, BUT SHOWS
+    ALL JACKED UP WHEN ABOUT, RESUME AND DESIGN
+    ARE EXPANDED? */
+
     #toggle_cv ul {
     font-size: 1em;
     }
@@ -391,7 +396,7 @@ footer {
     }
 
     .name h1 {
-      font-size: 2.5em;
+      font-size: 2.0em;
     }
 
     .social-media {
