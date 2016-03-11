@@ -338,11 +338,13 @@ footer {
     }
 
     .nav-boxes {
+    height: 40px;
+    width: 100px;
     display: block;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 30%;
-    padding-bottom: 25%;
+    padding-bottom: 30%;
     font-family: 'Julius Sans One', sans-serif;
     }
 
@@ -373,11 +375,6 @@ footer {
     padding-left: 1%;
     padding-right: 1%;
     }
-
-   /* WHY IS EVERYTHING SHOWING UP FINE WHEN 
-    PHOTOS AND WRITING ARE EXPANDED, BUT SHOWS
-    ALL JACKED UP WHEN ABOUT, RESUME AND DESIGN
-    ARE EXPANDED? */
 
     #toggle_cv ul {
     font-size: 1em;
