@@ -25,4 +25,31 @@ $(document).ready(function(){
     $(".jumbotron").toggleClass("large");
   });
 
+
+
+
+  // FIX JQUERY SO THAT WHEN YOU CLICK SOMETHING ELSE,
+  // THE DIV THAT IS EXPANDED COLLAPSES SO THE 
+  // NEW DIV CAN EXPAND. THIS DOES NOT WORK, BUT I 
+  // THINK IS CLOSE TO WORKING vv
+
+  //   $(".jumbotron").click(function (e) {
+  //       if(e.target.className == "large" || "extralarge") {        
+  //            e.stopPropagation();
+  //       }
+  //       else {
+  //           $("*").removeClass("large" || "extralarge");
+  //       }
+  //   }); 
+
+  // THIS ALSO DOESN'T WORK vv
+
+  //   $(".nav-button-about").click(function() {
+  //   $("#toggle_about").toggle(1000);
+  //   $(".jumbotron").toggleClass("large");
+  //   if ($(e.target).is(".jumbotron") === false) {
+  //     $(".jumbotron").removeClass("large");
+  //   }
+  // });
+
 });

@@ -82,16 +82,12 @@ ul {
 
 .nav-boxes {
   /*display: inline-block;*/
-/*  padding-left: 10vw;
-  padding-right: 20vw;*/
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-top: 25vh;
   padding-bottom: 25vh;
+/*  position: relative;*/
   font-family: 'Julius Sans One', sans-serif;
-}
-
-.nav-boxes ul {
-  margin-left: 50vw;
-  margin-right: 50vw;
 }
 
 .nav-button-about {
@@ -216,14 +212,14 @@ ul {
 
 .nav-boxes ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .nav-boxes li {
   float: left;
-  padding: 2%;
+  padding: 3%;
 }
 
 
