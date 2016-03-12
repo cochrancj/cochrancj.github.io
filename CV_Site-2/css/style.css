@@ -86,8 +86,9 @@ ul {
   padding-right: 10vw;
   padding-top: 25vh;
   padding-bottom: 25vh;
-/*  position: relative;*/
-  font-family: 'Julius Sans One', sans-serif;
+  width: 80%;
+/*  position: relative;
+*/  font-family: 'Julius Sans One', sans-serif;
 }
 
 .nav-button-about {
