@@ -1,0 +1,83 @@
+body {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/*the game board*/
+#game-board {
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+
+/*board scaffolding*/
+table {
+  margin-top: 5% 3% 0 3%;
+  padding-left: 5%;
+}
+
+/*game tiles*/
+td {
+  height: 150px;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+/*simple hover*/
+td:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+/*simple changed state hover*/
+td:not(:empty):hover {
+  background-color: slategrey;
+  cursor: default;
+}
+
+/*top row*/
+td.t {
+  border-bottom: 2px solid grey;
+}
+
+/*middle row*/
+td.m {
+  border-bottom: 2px solid grey;
+}
+
+/*far right on row*/
+td.l {
+  border-left: 2px solid grey;
+}
+
+/*far left of row*/
+td.r {
+  border-right: 2px solid grey;
+}
+
+/*this is a tile that has been slected*/
+td.marked {
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center;
+}
+
+/*this is a tile selected by X*/
+td.marked.x {
+  color: lightseagreen;
+}
+
+/*this is a tile selected by O*/
+td.marked.o {
+  color: magenta;
+}
+
+/*reset button*/
+button {
+  display: block;
+  margin-left: 40%;
+  padding: 1%;
+}
+
+
