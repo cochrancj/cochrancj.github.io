@@ -45,4 +45,27 @@ $(document).ready(function () {
 	
 })
 
+// ANOTHER WAY TO DO IT: 
+
+// $(document).ready(function () {
+
+// 	$('#clickme').click(function(){
+// 		var newItem = $('#item').val();
+// 		if (!newItem) {
+// 			alert ('List item is empty!')
+// 		} else 
+// 			appendItem(newItem);
+// 	});
+
+// 	function appendItem (newItem){
+// 		$('ul').append('<li>' + newItem + '</li>');
+// 		$('#item').val('');
+// 		$('#item').focus();
+// 		$('li').click(function() {
+// 			$(this).remove();
+// 		})
+// 	};
+// });
+
+
 	
