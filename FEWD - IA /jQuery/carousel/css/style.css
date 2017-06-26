@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+.slide {
+	margin: 50px;
+	padding: 20px;
+	background-color: #abcd12;
+	color: white;
+}
+
+#navigation nav a {
+	background-color: #666666;
+	text-decoration: none;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	display: inline-block;
+}

@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+img {
+  position: absolute;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -50px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 100px;
+  color: white;
+  font-family: Courier, monospace;
+}
+
+.character {
+  position: absolute;
+}

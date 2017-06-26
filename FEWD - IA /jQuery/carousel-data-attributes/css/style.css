@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+.slide {
+	margin: 50px;
+	padding: 20px;
+	background-color: #abcd12;
+	color: white;
+	display: none;
+}
+
+.slide.current {
+	display: block;
+}
+
+#navigation nav a {
+	background-color: #666666;
+	text-decoration: none;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#navigation nav a.current {
+	background-color: #abcd12;
+}
+
+#navigation nav a:hover {
+	border: solid 5px #abcd12;
+}
+
+
+
+
+
+
+
+
